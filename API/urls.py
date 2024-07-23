@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from .views import index, homepage 
+from .views import index, homepage , halamanfarda, cekjam
 
 urlpatterns = [
     path('index/', index, name="index"),
     path('homepage/', homepage, name="homepage"),
+    path('halamanfarda/', halamanfarda, name= "halamanfarda"),
+    path('halamanfarda/cekjam', cekjam, name="jambut")
 ]

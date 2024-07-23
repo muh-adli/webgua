@@ -1,0 +1,499 @@
+kode_desa;kode_karts;nama_objek;jenis;x;y;z;provinsi;kabupaten;kecamatan;desa;dukuh;tempat_unik;letak;akses;biota;potensi;pemanfaatan;keterangan
+3312010001;GNS_WNG_PRC;Luweng Paseban;GUA V;478063;9098131;;Jawa Tengah;Wonogiri;Pracimantoro;Sumberagung;Pakem;;Pusat Depresi;;;Hidrologi 12 l/s;Sudah dimanfaatkan;pemanfaatan domestik
+3312010001;GNS_WNG_PRC;Luweng Telogo Pilah;GUA V;477229;9098544;;Jawa Tengah;Wonogiri;Pracimantoro;Sumberagung;Pakem;;Lereng Depresi;;;;Sudah dimanfaatkan;pemanfaatan domestik
+3312010001;GNS_WNG_PRC;Luweng Logundes;GUA V;477544;9098443;;Jawa Tengah;Wonogiri;Pracimantoro;Sumberagung;Pakem;;Pusat Depresi;;;;;
+3312010001;GNS_WNG_PRC;Luweng Songo;GUA V;476631;9101010;;Jawa Tengah;Wonogiri;Pracimantoro;Sumberagung;Ngaluran;;Pusat Depresi;;;Hidrologi 12 l/s;;Telah diangkat airnya
+3312010001;GNS_WNG_PRC;Song Gembrung;GOA V;478332;9100669;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Ngaluran;Bak Air Pemandian Warga;Pusat Depresi;Jalan Setapak;Kelelawar, Tokek, Kupu-Kupu, Burung;;Tidak Dimanfaatkan;Terdapat Longsoran Kecil dan di Area Enterens Bisa di Manfaatkan Untuk Latihan BolderSerta Terletak di Sungai Bengawan Solo Purba
+3312010001;GNS_WNG_PRC;Goa Pendak;GOA V;479258;9100441;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mendak;;Lereng Depresi;Jalan Setapak;Jangkrik;;Tidak Dimanfaatkan;Berada di Lereng Bukit Milik Pak Rakimin
+3312010001;GNS_WNG_PRC;Song Terus;GOA H;478299;9102243;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pundung Sari;Enterens diTumbuhi Pohon Bambu;Lereng Depresi;Jalan Kabupaten;Jangkrik;;Sudah Dimanfaatkan;Goanya Bisa Tembus dan Jaraknya Pendek
+3312010001;GNS_WNG_PRC;Song Blumbung;GOA V;478302;9101709;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Digal;;Lereng Depresi;Jalan Kabupaten;Sriti, jangkrik, Tonggeret;;Sudah Dimanfaatkan;Digunakan Sebagai Tambang, Kedalam 3m
+3312010001;GNS_WNG_PRC;Ponor;GOA V;478309;9101683;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Digal;Pring Ori;Lereng Depresi;Jalan Kabupaten;;;Sudah Dimanfaatkan;Untuk Membuang Sampah
+3312010001;GNS_WNG_PRC;Luweng Drutah;GOA V;478403;9101859;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Digal;;Lereng Depresi;Jalan Kabupaten;Jangkrik, Nyamuk, Lalat;;Sudah Dimanfaatkan;Tempat Pembuangan sampah dan Sudah Tertutup Longsoran 
+3312010001;GNS_WNG_PRC;Luweng Tukluan;GOA V;478462;9102002;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Digal;;Lereng Depresi;Jalan Setapak;Landak, Siput;;Sudah Dimanfaatkan;Untuk Rumah Landak dan Sudah Ditutup Oleh Batu
+3312010001;GNS_WNG_PRC;Goa Makam;GOA H;479206;9101347;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Meri;Makam;Puncak Bukit;Jalan Desa Beton;Nyamuk;;Sudah Dimanfaatkan;Terdapat 2 Enteren Digunakan Sebagai Makam Bayi dan Tempat Pembuangan Sampah
+3312010001;GNS_WNG_PRC;Goa Sumosakir;GOA H;479353;9101400;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Meri;Makam Mbah Somo;Lereng Depresi;Jalan Desa Beton;;;Sudah Dimanfaatkan;Digunakan Sebagai Tempat Pemakaman Pemilik Lahan
+3312010001;GNS_WNG_PRC;Telogo Digal;TELAGA;478682;9101693;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Digal;Sumur;Pusat Depresi;Jalan Desa Beton;Ikan, Katak;Perikanan, Irigasi, Tempat pembuangan Air;Sudah Dimanfaatkan;Digunakan Untuk Mandi dan Irigasi
+3312010001;GNS_WNG_PRC;Ponor Ngaluran;PONOR;478204;9101456;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Ngaluran;;Pusat Depresi;Jalan Desa Aspal;Kodok, Jangkrik;;Sudah Dimanfaatkan;Sebagai tempat Drainase Air Banjir Masuk ke Ponor
+3312010001;GNS_WNG_PRC;Song Terus;GOA H;478394;9102246;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pundung Sari;Pohon So;Lereng Depresi;Jalan Kabupaten;Tokek, Jamngkrik;;Sudah Dimanfaatkan;Goanya Bisa Tembus dan Jaraknya Pendek dan Digunakan Sebagai Tempat Pembuangan Sampah
+3312010001;GNS_WNG_PRC;Embung Mesu;TELAGA;479520;9099594;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Alur Lembah;Jalan Setapak;Semut, Jangkrik, Ikan, Lebah;Sumber Air;Sudah Dimanfaatkan;Dipinggir Jalan Dibuat Untuk Irigasi
+3312010001;GNS_WNG_PRC;Tebing Mesu;TEBING;479453;9099572;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Patahan/Tebing;Jalan Setapak;Jangkrik, Burung, Semut, Lebah;;Belum Dimanfaatkan;Berada Dipinggir Embung Mesu dan Memiliki Batuan Gamping, Serta Akses Jalan yang Mudah
+3312010001;GNS_WNG_PRC;Song Mesu 1;GOA V;479469;9099824;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Alur Lembah;Jalan Setapak;Jangkrik, Kupu-Kupu, Semut, Nyamuk, Tikus;;Belum Dimanfaatkan;Dekat Jalan dan Berada Di Ladang Warga di erkirakan Kedalaman 75m
+3312010001;GNS_WNG_PRC;Song Mesu 2;GOA V;479108;9100123;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Pusat Depresi;Jalan Setapak;Ayam, Belalang, Semut;;Sudah Dimanfaatkan;Luweng Digali Menggunakan Alat dan Disusun Menggunakan Bes
+3312010001;GNS_WNG_PRC;Song Mesu 3;GOA H;478810;9100269;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Alur Lembah;Belum Ada Jalan;Kupu-Kupu, Nyamuk, Semut;;Tidak Dimanfaatkan;Tertutup Oleh Rerumputan Yang Tinggi
+3312010001;GNS_WNG_PRC;Song Landak 1;GOA H;478654;9100179;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Lereng Depresi;Belum Ada Jalan;Nyamu, Kupu-Kupu, Burung, Semut;;Belum Dimanfaatkan;Tempat Tinggal Landak dan Terdapat vJebakan di Depan Goa
+3312010001;GNS_WNG_PRC;Song Landak 2;GOA H;478648;9100181;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Mesu;;Lereng Depresi;Belum Ada Jalan;Nyamuk, Burung, Kupu-Kupu, Semut;;Belum Dimanfaatkan;Tempat Tinggal Landak
+3312010001;GNS_WNG_PRC;Luweng Jumblang;COLLAPS;479027;9099187;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;;;Pusat Depresi;Belum Ada Jalan;Jangkrik, Semut, Ular, Burung;;Sudah Dimanfaatkan;Jauh Dari Jalan dan Pemukiman
+3312010001;GNS_WNG_PRC;Luweng Blecok ;GOA H;477717;9099256;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pakem;Enterens Buatan;Alur Lembah;Jalan Setapak;Pohon isang, Nyamuk, Singkong, Nyamuk;;Tidak Dimanfaatkan;Enterens Dibuat Supaya Air Mudah Masuk
+3312010001;GNS_WNG_PRC;Luweng Lumbu;GOA V;476650;9099035;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pakem;;Alur Lembah;Jalan Setapak;Lumbu, Singkong, Capung;;Tidak Dimanfaatkan;Dahulu Berupa Collaps Dan Digunakan Sebagai Tempat pembuangan Sampah Yang Akhirnya Ditutup Menggunakan Batu
+3312010001;GNS_WNG_PRC;Telaga Pilah (Cekdam);TELAGA;477093;9098670;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Ngeluh;;Alur Lembah;Jalan Setapak;Jati, Kodok, Nyamuk, Kumbang, Kelapa, Pisang ;;Sudah Dimanfaatkan;Sebagai Tempat Penampungan Air Hujan
+3312010001;GNS_WNG_PRC;Telaga Dilem;TELAGA;476553;9099980;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pakem;Pohon Beringin;Lereng Depresi;Jalan Setapak;Belalang, Kupu-Kupu, Siput, Pepaya, Pisang;Ladang Warga;Sudah Dimanfaatkan; Sekitarnya Digunakan Sebagai Ladang Oleh Warga Setempat
+3312010001;GNS_WNG_PRC;Goa Totogan;GOA H;476504;9099592;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Ngeluh;;Lereng Depresi;Jalan Desa Beton;Paku-Pakuan, Pisang, Katak;;Sudah Dimanfaatkan;Berada Dipinggir Jalan dan Dahulu Digunakan Sebagai Bahan Bangunan, Sekarang Digunakan Sebagai Tempat Sampah
+3312010001;GNS_WNG_PRC;Luweng Mbletok;GOA V;477692;9099199;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pakem;;Alur Lembah;Jalan Setapak;Tumbuhan Menjalar;;Tidak Dimanfaatkan;Enteren yang Dilebarkan Oleh Alat Berat Untuk Memudahkan Air Masuk Kedalam Luweng
+3312010001;GNS_WNG_PRC;Telaga Kotekan ;TELAGA;477694;9099170;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pakem;Terdapat Luweng;Alur Lembah;Jalan Perintis;Kacang, Ketela, Belalang;Menggenang Pemukiman Ketika Hujan;Sudah Dimanfaatkan;Sering Meluap Sehingga Oleh Warga Luweng Disekitar Digali Supaya Air Dapat Meresap
+3312010001;GNS_WNG_PRC;Ponor Pakem;PONOR;476983;9099081;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pakem;;Pusat Depresi;Jalan Setapak;Nyamuk;Ladang Warga;Tidak Dimanfaatkan;
+3312010001;GNS_WNG_PRC;Luweng Larmi;GOA V;476814;9099183;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Ngelo;;Pusat Depresi;Belum Ada Jalan;Nyamuk, Monyet;Sebagai Masuknya Air Hujan;Sudah Dimanfaatkan;Luweng Ini Berada Di Pusat Depresi Dan Ketika Hujan Air Masuk Kedalam Luweng Ini
+3312010001;GNS_WNG_PRC;Tebing Putih;TEBING;476975;9099766;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Ngelo;;Patahan;Jalan Setapak;;Panjat Tebing;Belum Dimanfaatkan;
+3312010001;GNS_WNG_PRC;Luweng Njati;GOA V;477385;9099915;;Jawa Tengah;Wonogiri;Pracimantoro;Sumber Agung;Pundung Sari;;Pusat Depresi;Jalan Setapak;Semut, Nyamuk;;Belum Dimanfaatkan;
+3312010002;GNS_WNG_PRC;Telaga Petirsari;TELAGA;480406;9101614;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Petirsari;;Pusat Depresi;Jalan Desa Beton;Kupu2 Jangkrik;Digunakan Sebagai Sumber Air;Sudah Dimanfaatkan;Telaga Petirsari Sudah Digunakan Masyarakat Untuk Mandi, Cuci Dll.
+3312010002;GNS_WNG_PRC;Luweng Petirsari;GOA V;480390;9101649;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Petirsari;;Lereng Depresi;Jalan Desa Beton;Nyamuk, Jangkrik;Sebagai Masuknya Air Hujan;Belum Dimanfaatkan;Gua Ini Berada Di Lereng Depresi Dekat Dengan Telaga Petirsari, Di Lingkungan Luweng Banyak Sampah Kaca Jika Hujan Turun Air Masuk Ke Luweng Dan Mengalir Ke Telaga
+3312010002;GNS_WNG_PRC;Luweng Ngresik;GOA V;479513;9101874;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Wora Wari;;Pusat Depresi;Jalan Setapak;Jangkrik, Nyamuk;;Belum Dimanfaatkan;Luweng Ini Berada Di Pusat Depresi, Luweng Ini Sebagai Tempat Masuknya Air Hujan Dan Memiliki 2 Entrance
+3312010002;GNS_WNG_PRC;Jenggungan;COLLAPS;480017;9101181;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Dayakan;;Patahan;Jalan Setapak;Nyamuk, Burung, Kupu2;;Sudah Dimanfaatkan;Digunakan Untuk Ladang Kacang, Singkong, Pisang Bisa Digunakan Panjat Tebing
+3312010002;GNS_WNG_PRC;Sumur Mendak;SUMUR;479665;9100663;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Mendak;;Aliran Sungai;Jalan Desa Beton;Kupu2, Ayam, Capung;;Sudah Dimanfaatkan;Digunakan Masyarakat Untuk Pertanian, Ketika Musim Kemarau Tidak Ada Air Tapi Musim Hujan Ada Airnya
+3312010002;GNS_WNG_PRC;Telaga Mendak;TELAGA;479656;9100600;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Mendak;;Aliran Sungai;Jalan Desa Beton;Kupu2, Capung;Sumber Air Untuk Pertanian;Sudah Dimanfaatkan;Telaga Mendak Terbentuk Akibat Adanya Amblesan Yang Disebabkan Hujan Dan Permeabilitas Tanah, Menurut Warga Sekitar Jika Telaga Penuh Air Cepat Hilang/Menyusut
+3312010002;GNS_WNG_PRC;Luweng Mbanjeng;GOA V;480185;9100630;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Mbanjeng;;Aliran Sungai;Jalan Desa Beton;Nyamuk;;Belum Dimanfaatkan;Luweng Mbanjeng Ini Berada Di Aliran Bengawan Solo Purba Tapi Luweng Ini Ditutup Oleh Warga Menggunakan Batu Dan Rumput Gajah
+3312010002;GNS_WNG_PRC;Luweng Mbakung;GOA V;481187;9100963;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Mbakung;;Lereng Depresi;Jalan Setapak;Nyamuk;;Sudah Dimanfaatkan;Luweng Ini Digunakan Untuk Pembuangan Sampah Oleh Masyarakat Sekitar
+3312010002;GNS_WNG_PRC;Telaga Mbakung;TELAGA;481168;9100851;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Mbakung;;Aliran Sungai;Jalan Desa Beton;Nyamuk;;Belum Dimanfaatkan;Telaga Mbakung Ini Berada Di Aliran Bengawan Solo Purba
+3312010002;GNS_WNG_PRC;Luweng Mbakagung;GOA V;481671;9101049;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Mbakagung;;Lereng Depresi;Jalan Setapak;Tikus, Nyamuk, Burung, Jangkrik;;Belum Dimanfaatkan;Berada di Lereng Bukit 
+3312010002;GNS_WNG_PRC;Song Dompol;GOA H;480956;9102176;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Dompol;;Lereng Depresi;Jalan Desa Beton;;;Belum Dimanfaatkan;Berada Dibelakang Rumah Warga
+3312010002;GNS_WNG_PRC;Song Laweyan;GOA V;481092;9101869;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Dompol;;Lereng Depresi;Jalan Makadam;;;Sudah Dimanfaatkan;Terletak Dipinggir Jalan dan Diladang Warga
+3312010002;GNS_WNG_PRC;Luweng Ngapak;GOA V;479627;9103360;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Genbang;Pohon Bleder;Pusat Depresi;Jalan Setapak;Nyamuk, Jangkrik, Lalat;;Tidak Dimanfaatkan;Gua Vertikal Berada Di Pusat Depresi Dan Are Sekitarnya Digunakan Sebagai Ladang Oleh Warga Setempat
+3312010002;GNS_WNG_PRC;Goa Gentong;GOA H;479849;9103729;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Ketos;;Puncak Bukit;Jalan Setapak;Landak, Jangkrik, Burung, Semut;;Tidak Dimanfaatkan;Berada Di Puncak Bukit Dengan Banyak Entrance Untuk Memasukinya Dan Menjadi Sarang Landak
+3312010002;GNS_WNG_PRC;Luweng Buh Lor;GOA V;479537;9103609;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Gebang;;Pusat Depresi;Jalan Setapak;Belalang, Nyamuk, Katak;Tempat Pembuangan Sampah;Tidak Dimanfaatkan;Sudah Ditimbun Tanah Oleh Warga
+3312010002;GNS_WNG_PRC;Luweng Gebang;GOA V;479295;9103347;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Gebang;Pohon Pilo;Pusat Depresi;Jalan Setapak;Nyamuk, Jangkrik, Burung;Tempat Pembuangan Sampah;Belum Dimanfaatkan;Berada Pada Pusat Depresi, Sekitar Goa Dimanfaatkan Sebagai Ladang Dang Berada di Samping Pohon Pilo Yang Dikeramatkan
+3312010002;GNS_WNG_PRC;Song Pahit;GOA H;479626;9102732;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Ketos;Banyak Pohon;Puncak Bukit;Belum Ada Jalan;Lebah, Ngengat, Kodok;;Sudah Dimanfaatkan;Tempat Untuk Mencari Landak dan Berada di Puncak Bukit
+3312010002;GNS_WNG_PRC;Ponor Banjaran;PONOR;480457;9102201;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Banjaran;Ladang;Pusat Depresi;Jalan Desa Beton;Nyamuk, Jangkrik;Sebagai Tempat Pembuangan Air;Sudah Dimanfaatkan;Tempat Mengalirnya Air Ketika Banjir
+3312010002;GNS_WNG_PRC;Telaga Sendang;TELAGA;480775;9102876;;Jawa Tengah;Wonogiri;Pracimantoro;Petirsari;Dompol;;Pusat Depresi;Jalan Setapak;Jangkrik, Belalang, Burung;Tempat Penampungan Air;Sudah Dimanfaatkan;Rencananya Akan di Bangun Telaga Namun Selalu Gagal Karena Air Selalu Merembes dan Saat ini di Gunakan Sebagai Ladang Oleh Warga
+3312010003;GNS_WNG_PRC;Song Ireng;GOA V;481192;9104398;;Jawa Tengah;Wonogiri;Pracimantoro;Watangrejo;Nglancing;Terdapat Makam;Pusat Depresi;Jalan Setapak;Nyamuk;;Belum Dimanfaatkan;Goa Vertikal Dengan Mulut Goa Kecil Dan Belum diKetahu Kedalamannya (Inlet)
+3312010003;GNS_WNG_PRC;Song Putih;GOA V;481158;9104294;;Jawa Tengah;Wonogiri;Pracimantoro;Watangrejo;Nglancing;Terdapat Keris;Patahan/Tebing;Jalan Setapak;Nyamuk, Kodok, Kelelawar;;Belum Dimanfaatkan;Goa Vertikal dan Horizontal Serta Akses Jalan Mudah di Lalui
+3312010004;GNS_WNG_PRC;Blembem;GUA V;484929;9104928;;Jawa Tengah;Wonogiri;Pracimantoro;Gambirmanis;Bakalan;;Alur Lembah;;;;;Sket 2b
+3312010004;GNS_WNG_PRC;Luweng Jamuran;GOA V;483823;9102020;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Tileng;;Pusat Depresi;Jalan Setapak;Burung, Walang;Sumber Masuknya Air;Belum Dimanfaatkan;Berada Didaerah Bengawan Solo Purba
+3312010004;GNS_WNG_PRC;Tlaga Jamuran;TELAGA;483902;9102070;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Tileng;;Aliran Sungai ;Jalan Setapak;Kupu-Kupu, Capung;;Sudah Dimanfaatkan;Sudah Digunakan Sebagai Lahan Pertanian
+3312010004;GNS_WNG_PRC;Sumur Bakalan;SUMUR;484266;9102591;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Bakalan;;Aliran Sungai;Jalan Desa Beton;Kupu-Kupu;;Sudah Dimanfaatkan;Dimanfaatkan Warga Untuk Pertanian
+3312010004;GNS_WNG_PRC;Ponor Kacang;PONOR;482273;9103164;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;;;Pusat Depresi;Jalan Makadam;Walang, Nyamuk;Tempat Masuknya Air;Belum Dimanfaatkan;Sebagai Inlet Air Namun Ditutupi Oleh Sampah Organik
+3312010004;GNS_WNG_PRC;Telaga Sebagor;TELAGA;482225;9102845;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Pakel;Telaga;Alur Lembah;Jalan Makadam;Ikan Mujair;Pengairan, Tampungan Air;Sudah Dimanfaatkan;Musiman
+3312010004;GNS_WNG_PRC;Song Sebagor;GOA H;482190;9102726;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Lembah Bang;;Lereng Depresi;Belum Ada Jalan;Nyamuk, Jangkrik, Burung;;Tidak Dimanfaatkan;Letaknya Menghadap Telaga Sebagor
+3312010004;GNS_WNG_PRC;Luweng Dawung-Dawung;GOA V;482176;9101066;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Tileng;;Puncak Bukit;Jalan Setapak;Belalang, Burung, Jangkrik, Bajing;Terdapat Air;Tidak Dimanfaatkan;Dahulu Terdapat Air Namun Sekarang Ditutup Oleh Warga
+3312010004;GNS_WNG_PRC;Luweng Growong-Growong;GOA V;482703;9101495;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Tileng;;Pusat Depresi;Jalan Setapak;Nyamuk, Jangkrik, Kodok;;Tidak Dimanfaatkan;Sudah Ditutup Dengan Batu Oleh Pemilik Lahan dan Disamping Terdapat Collaps
+3312010004;GNS_WNG_PRC;Luweng Jati;GOA V;481491;9103942;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Gambir Anom;Pohon Jati;Lereng Depresi;Belum Ada Jalan;Nyamuk, Jangkrik, Semut;;Tidak Dimanfaatkan;Berada diAtas Bukit yang Penuh Dengan Pohon Jati Serta Akses Jalan Yang Belum Ada
+3312010004;GNS_WNG_PRC;Song Gambir Anom;COLLAPS;481575;9103843;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Gambir Anom;;Lereng Depresi;Belum Ada Jalan;Semut;;Tidak Dimanfaatkan;Berada di Pinggir Jalan Berupa Reruntuhan
+3312010004;GNS_WNG_PRC;Lembah Bang;COLLAPS;481385;9102153;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Lembah Bang;;Alur Lembah;Belum Ada Jalan;Nyamuk;Tempat Penampungan Air;Sudah Dimanfaatkan;Dahulu di Manfaatkan Sebagai Tempat Sumber Air Namun Saat ini Sudah Tidak Dimanfaatkan Lagi
+3312010004;GNS_WNG_PRC;Lembah Bang 2;COLLAPS;481371;9102134;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Lembah Bang;;Alur Lembah;Belum Ada Jalan;Nyamuk;;Tidak Dimanfaatkan;
+3312010004;GNS_WNG_PRC;Luweng Pugeran;GOA V;483075;9104118;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Karang;;Lereng Depresi;Belum Ada Jalan;Nyamuk;;Tidak Dimanfaatkan;Berada di Dukuh Karang Atau Alas Pugeran
+3312010004;GNS_WNG_PRC;Luweng Telaga Mati;GOA V;483485;9104121;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Gondang Manis;;Pusat Depresi;Jalan Desa Beton;Nyamuk;Daerah Resapan Banjir;Sudah Dimanfaatkan;Digunakan untuk Pelarian Air Dari Wilayah Sekitar Dan Merupakan Luweng Collaps
+3312010004;GNS_WNG_PRC;Luweng Area;GOA V;483291;9103337;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Bakalan;;Lereng Depresi;Jalan Setapak;Belalang, Nyamuk, jangkrik;;Tidak Dimanfaatkan;Luweng Digunakan Sebagai Tempat Pembuangan Sampah
+3312010004;GNS_WNG_PRC;Luweng Kemukus;GOA V;483307;9101691;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Tileng;;Pusat Depresi;Jalan Desa Beton;;;Tidak Dimanfaatkan;Berada Ditengah Sawah Milik Warga Atau Telaga Kering dan Merupakan Luweng Sumuran tidak Ada Arah Lorong Selanjutnya
+3312010004;GNS_WNG_PRC;Goa Gunung Resik;GOA H;483475;9105092;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Nojo;;Lereng Depresi;Jalan Setapak;Landak, Nyamuk;;Sudah Dimanfaatkan;Tempat Berburu landak pada Jaman Dulu
+3312010004;GNS_WNG_PRC;Telaga Tilang;TELAGA;483535;9101783;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Tileng;;Pusat Depresi;Jalan Makadam;Ikan Nila, Katak;Bak Cadangan Air;Sudah Dimanfaatkan;Dimanfaatkan Sebagai Tempat Penyimpanan Air Warga
+3312010004;GNS_WNG_PRC;Song Gumuk;GOA H;485283;9104966;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Bakalan;Dekat Dengan Tebing;Puncak Bukit ;Belum Ada Jalan;Siput, Alap-Alap;;Tidak Dimanfaatkan;Song Tetapi Terdapat Lubang Kecil Dan Terdapat Stalaktit
+3312010004;GNS_WNG_PRC;Telaga Dangdang;TELAGA;484612;9103594;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Bakalan;;Alur Lembah;Jalan Desa Beton;ikan, Cacing, Semut, Burung;Tampungan Air Warga dan Irigasi;Sudah Dimanfaatkan;Dekat Dengan Lapangan Voli
+3312010004;GNS_WNG_PRC;Luweng Bakalan;GOA V;484806;9103624;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Bakalan;pohon Beringin;Alur Lembah;Jalan Setapak;Ikan, Capung, Semut, Ular;Penyerapan Air;Tidak Dimanfaatkan;Dekat Dengan Telaga Dangdang
+3312010004;GNS_WNG_PRC;Song Buang;GOA H;485043;9105391;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Bakalan;Bekas Tambang;Lereng Depresi;Jalan Desa Beton;Kupu-kupu, Lalat, Cacing;;Sudah Dimanfaatkan;Lorong Tidak Begitu Panjang 
+3312010004;GNS_WNG_PRC;Goa Karang;GOA V;482074;9102516;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Pakel;;Lereng Depresi;Jalan Perintis;Nyamuk, Burung, Jangkrik;;Tidak Dimanfaatkan;Menurut Warga Desa, Goa Ini Tembus Dari Timur Desa KeBarat Desa
+3312010004;GNS_WNG_PRC;Telaga Doya;TELAGA;482807;9102607;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;;;Pusat Depresi;Jalan Setapak;Nyamuk, Ikan;;Sudah Dimanfaatkan;Merupakan Telaga yang Berada Dipusat Depresi, Telagga ini Dibangun Oleh pemerintah Jawa Tengah
+3312010004;GNS_WNG_PRC;Goa Doya Lor;GOA H;482742;9102601;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;;;Lereng Depresi;Jalan Setapak;Nyamuk, Jangkrik;;Sudah Dimanfaatkan;Berada Diatas Telaga Doya dan Dimanfaatkan Sebagai Tempat Pembuangan Sampah
+3312010004;GNS_WNG_PRC;Luweng Mblok Duwur;GOA V;481990;9103020;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Pakel;;Lereng Depresi;Jalan Setapak;Nyamuk, Jangkrik, Burung;;Sudah Dimanfaatkan;Goa Ini Digunakan Untuk Tempat Pembuangan Sampah
+3312010004;GNS_WNG_PRC;Song Pakel;GOA V;482104;9102529;;Jawa Tengah;Wonogiri;Pracimantoro;Gambir Manis;Pakel;;Lereng Depresi;Jalan Perintis;Nyamuk, Tokek, Jangkrik;;Sudah Dimanfaatkan;Jaman Dulu Digunakan Sebagai Tempat Bertapa
+3312010005;GNS_WNG_PRC;Luweng Gedang;GOA V;477931;9102857;;Jawa Tengah;Wonogiri;Pracimantoro;Joho;;;Pusat Depresi;Jalan Makadam;Pohon pisang, Rumput/Belukar;;Belum Dimanfaatkan;Inlet Atau Tempat Masuknya Air Dari Ladang
+3312010006;GNS_WNG_PRC;Suci;MATAAIR;484001;9108116;;Jawa Tengah;Wonogiri;Pracimantoro;Suci;Suci;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010006;GNS_WNG_PRC;Sinung;MATAAIR;484312;9106791;;Jawa Tengah;Wonogiri;Pracimantoro;Suci;Sinung;;Aliran Sungai;;;;Sudah dimanfaatkan;
+3312010008;GNS_WNG_PRC;Jatirogo;MATAAIR;482353;9107627;;Jawa Tengah;Wonogiri;Pracimantoro;Sambiroto;Jatirogo;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010008;GNS_WNG_PRC;Ngandong;MATAAIR;481781;9107104;;Jawa Tengah;Wonogiri;Pracimantoro;Sambiroto;Ngandong;;Aliran Sungai;;;;Sudah dimanfaatkan;
+3312010008;GNS_WNG_PRC;Sambiroto;MATAAIR;479757;9108689;;Jawa Tengah;Wonogiri;Pracimantoro;Sambiroto;Sambiroto;;Lereng Depresi;;;;Sudah dimanfaatkan;Digunakan PDAM
+3312010009;GNS_WNG_PRC;Teleng;MATAAIR;478258;9109998;;Jawa Tengah;Wonogiri;Pracimantoro;Pracimantoro;Belindas;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010009;GNS_WNG_PRC;Sumber Mulyo;MATAAIR;478809;9109672;;Jawa Tengah;Wonogiri;Pracimantoro;Pracimantoro;Ngulu Kidul ;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010010;GNS_WNG_PRC;Bete;GUA V;477872;9109134;;Jawa Tengah;Wonogiri;Pracimantoro;Gedong;Tangeran;;;;;;;CS P20, Visited
+3312010010;GNS_WNG_PRC;Gadjah;GUA V;477872;9108795;;Jawa Tengah;Wonogiri;Pracimantoro;Gedong;Tangeran;;;;;;;CU, Visited
+3312010010;GNS_WNG_PRC;Bohol;MATAAIR;477281;9110059;;Jawa Tengah;Wonogiri;Pracimantoro;Gedong;Bohol;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010011;GNS_WNG_PRC;Sodong;GUA H;475968;9111101;;Jawa Tengah;Wonogiri;Pracimantoro;Gebangharjo;Mudal;;Aliran Sungai;;;Hidrologi 1 l/s;;180, Sump, Mapped
+3312010011;GNS_WNG_PRC;Song Gilap;GUA H;475445;9110050;;Jawa Tengah;Wonogiri;Pracimantoro;Gebangharjo;Danggolo;;;;;;;Blocked, Visited
+3312010011;GNS_WNG_PRC;Sapen;GUA V;476102;9110892;;Jawa Tengah;Wonogiri;Pracimantoro;Gebangharjo;Mudal;;;;;Hidrologi 12 l/s;Sudah dimanfaatkan;pemanfaatan domestik
+3312010012;GNS_WNG_PRC;Sawahan;MATAAIR;479284;9110825;;Jawa Tengah;Wonogiri;Pracimantoro;Sedayu;Sawahan;;Aliran Sungai;;;;Sudah dimanfaatkan;
+3312010015;GNS_WNG_PRC;Beji;MATAAIR;480063;9111901;;Jawa Tengah;Wonogiri;Pracimantoro;Tubokarto;Beji;;Aliran Sungai;;;;Sudah dimanfaatkan;
+3312010015;GNS_WNG_PRC;Beton;MATAAIR;479683;9111760;;Jawa Tengah;Wonogiri;Pracimantoro;Tubokarto;Beji;;Aliran Sungai;;;;Sudah dimanfaatkan;Digunakan PDAM
+3312010016;GNS_WNG_PRC;Bendungan ;MATAAIR;477235;9111086;;Jawa Tengah;Wonogiri;Pracimantoro;Lebak;Bendungan;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010016;GNS_WNG_PRC;Sunggingan ;MATAAIR;477881;9111343;;Jawa Tengah;Wonogiri;Pracimantoro;Lebak ;Sunggingan;;Alur Lembah;;;;Sudah dimanfaatkan;
+3312010016;GNS_WNG_PRC;Lebak;MATAAIR;477534;9111335;;Jawa Tengah;Wonogiri;Pracimantoro;Lebak ;Lebak;;Lereng Depresi;;;;Sudah dimanfaatkan;
+3312010018;GNS_WNG_PRC;Joho;MATAAIR;477962;9115194;;Jawa Tengah;Wonogiri;Pracimantoro;Wonodadi;Joho;;Alur Lembah;;;;Sudah dimanfaatkan;pemanfaatan domestik
+3312010019;GNS_WNG_PRC;Luweng Wetan (?);PONOR;479423;9115593;481;Jawa Tengah;Wonogiri;Pracimantoro;Wonodadi;Gunungan;;Pusat Depresi;Jalan setapak;;Hidrologi;Sudah dimanfaatkan;Dimanfaatkan untuk pengatusan
+3312010020;GNS_WNG_PRC;Resurgen Gunungan 1;RESURGEN;478859;9115996;518;Jawa Tengah;Wonogiri;Pracimantoro;Wonodadi;Gunungan;;Lereng Depresi;Jalan setapak;;;;resurgen dari atas, diperkirakan Luweng Danyangan, imbuhan uvala Gunungan
+3312010021;GNS_WNG_PRC;Resurgen Gunungan 2;RESURGEN;478805;9116045;520;Jawa Tengah;Wonogiri;Pracimantoro;Wonodadi;Gunungan;;Lereng Depresi;Jalan setapak;;;;resurgen dari atas, diperkirakan Luweng Danyangan, imbuhan uvala Gunungan
+3312010020;GNS_WNG_PRC;Kali Yoja;MATAAIR;477955;9115113;514;Jawa Tengah;Wonogiri;Pracimantoro;Wonodadi;Yoja;;Lereng Depresi;Jalan desa beton;;Hidrologi;Sudah dimanfaatkan;pemanfaatan domestik
+3312100001;GNS_WNG_ERM;gua Kucing;GUA H;476223;9118558;579;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Danggolo;;Lereng Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;L. Jambe;GUA H;476099;9116287;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Kendal;;Pusat Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Ngunut 1;GUA H;475470;9117672;553;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;;Lereng Depresi;;;;belum dimanfaatkan;Vegetasi : Jati, Semak Belukar
+3312100001;GNS_WNG_ERM;Ngunut 2;GUA H;475623;9117490;563;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;;Lereng Depresi;;;;belum dimanfaatkan;Vegetasi : Bambu, Jati, Semak Belukar
+3312100001;GNS_WNG_ERM;Ngunut 3;GUA H;475679;9117489;544;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;;Lereng Depresi;;;;belum dimanfaatkan;Vegetasi : Jati, Semak Belukar
+3312100001;GNS_WNG_ERM;Gua Pakel Kopek;GUA H;474402;9117697;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Pego 1;GUA H;474535;9118291;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Pagersari;;Pusat Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Karang Talun;GUA H;474324;9115164;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngringin;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Song Agung;GUA H;473473;9114544;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngringin;;Patahan;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Puser Bumi;GUA V;475634;9116641;562;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Basuhan;;Lereng Depresi;Jalan setapak;;;belum dimanfaatkan;Vegetasi : Jati, Semak Belukar
+3312100001;GNS_WNG_ERM;Pedi/Gn Guo;GUA V;476475;9115729;600;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Kenongo;;Lereng Depresi;;;;belum dimanfaatkan;Gua Fosil
+3312100001;GNS_WNG_ERM;L. Jolundo;GUA V;475838;9115488;538;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Kenongo;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Kambil Sawit;GUA V;474442;9117036;134;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;Tikungan jalan;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Pego 2;GUA V;474538;9118298;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Pagersari;;Pusat Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;L. Gunung Cungkup;GUA V;474797;9118877;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;;Puncak Bukit;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;L. Keat;GUA V;475920;9117136;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngelo;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;L. Sari;GUA V;474219;9115510;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Ngringin;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Gua Tanjung 2;GUA V;474161;9116386;444;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Tanjung;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Gua Tanjung 3;GUA V;474346;9116208;451;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Tanjung;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Luweng Dudo;GUA V;475367;9118253;513;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Wonosumo;;Pusat Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Luweng Dudo Atas;GUA V;475487;9118326;518;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Wonosumo;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Ponor Salam;PONOR;475518;9117897;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Salam;Masjid;Pusat Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Sumber Beji;MATAAIR;475339;9115063;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Gendayakan;Rimbun;Lereng Depresi;Jalan Desa beton;;;sudah dimanfaatkan;
+3312100001;GNS_WNG_ERM;Sumber Kalisat;MATAAIR;476653;9115584;561;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Kenongo;;Patahan;Jalan Makadam;;;sudah dimanfaatkan;
+3312100001;GNS_WNG_ERM;Sumber Puring;MATAAIR;475775;9117657;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Salam;;Pusat Depresi;;;;sudah dimanfaatkan;
+3312100001;GNS_WNG_ERM;Sumber dudo;MATAAIR;475494;9118327;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Wonosumo;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Sumber Kembang;MATAAIR;476519;9116419;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Kendal;;Lereng Depresi;;;;belum dimanfaatkan;
+3312100001;GNS_WNG_ERM;Sumur dudo;SUMUR;475471;9118304;;Jawa Tengah;Wonogiri;Eromoko;Basuhan;Wonosumo;;Lereng Depresi;;;;sudah dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Kangkung;GUA H;476382;9119903;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Kangkung;Tekuk lereng;Lereng Depresi;Jalan Setapak Beton;;;pernah dimanfaatkan;Gua sudah ditambang pospat dan kalsit, ornamen habis
+3312100002;GNS_WNG_ERM;Gua Kucing;GUA H;476853;9120151;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Mijil;;Lereng Depresi;Jalan setapak;;;belum dimanfaatkan;ditambangan pospat 2015
+3312100002;GNS_WNG_ERM;Luweng Sumur Pule;GUA H;477097;9119418;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pule;;Pusat Depresi;Jalan setapak;;;pernah dimanfaatkan;Disebelahnya digali sumur untuk mandi cuci, ambil air
+3312100002;GNS_WNG_ERM;Gua Tambang;GUA H;477255;9118973;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pule;;Lereng Depresi;Jalan setapak;;;pernah dimanfaatkan;Sempat diditambang, diambil kalsit nya
+3312100002;GNS_WNG_ERM;Gua Tembus 1;GUA H;477296;9119617;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Tejosari;Sungai;Aliran Sungai;Jalan setapak;Lele dan ikan lain;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Tembus 2;GUA H;477203;9119693;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Tejosari;Sungai;Aliran Sungai;Jalan setapak;Lele dan ikan lain;;pernah dimanfaatkan;Sebelum Pemanfatan Gua Suruh dan Sumur Bayan, mulut gua digunakan MCK
+3312100002;GNS_WNG_ERM;Gua Pengangson;GUA H;477099;9119883;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Gundi;;Aliran Sungai;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Glagah Ombo;GUA H;475325;9121204;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Turi;;Lereng Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Lawa;GUA H;478196;9118053;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pucungkidul;;Patahan;Jalan Perintis;Kelelawar;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Suruh;GUA V;476353;9119538;537;Jawa Tengah;Wonogiri;Eromoko;Pucung;Brengkut;Pos Jaga;Pusat Depresi;Jalan Setapak Beton;Kelelawar, sriti, Jangkrik, udang, ;sungai bawah tanah;sudah dimanfaatkan;pengambilan melalui pemompaan sungai bawah tanah, memenuhi sekitar 250 KK
+3312100002;GNS_WNG_ERM;Gua ;GUA V;476454;9119420;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Brengkut;;Lereng Depresi;Jalan Setapak ;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Luweng Gesing;GUA V;475465;9119235;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pule;;Pusat Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Luweng Jeromati;GUA V;477333;9118705;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pule;Tikungan jalan;Pusat Depresi;Jalan Desa Beton;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Luweng WC;GUA V;477059;9119029;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pule;Belakang rumah;Pusat Depresi;Jalan Desa Beton;;;pernah dimanfaatkan;Sempat digunakan tempat pembuangan kotoran manusia, 2006 sudah tidak
+3312100002;GNS_WNG_ERM;Luweng Tompak;GUA V;475097;9119598;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Jalakan;;Lereng Depresi;Jalan setapak;;;pernah dimanfaatkan;Sempat digunakan buang mayat, saat ini ditutup warga 
+3312100002;GNS_WNG_ERM;Luweng Pucung;GUA V;477778;9118077;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pucungkidul;;Pusat Depresi;Jalan Desa Beton;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Sendang;GUA V;478347;9115942;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Tukul;;Pusat Depresi;Jalan Desa Beton;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Gua Bongos;GUA V;477659;9115937;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Bongos;;Pusat Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;ponor Tlogogamping;PONOR;476217;9120766;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Turi;;Pusat Depresi;Jalan setapak;;;belum dimanfaatkan;Ponor Besar Polje Tealga Gamping
+3312100002;GNS_WNG_ERM;Ponor Dunggudel;PONOR;478340;9116467;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Dunggudel;;Pusat Depresi;Jalan Desa Beton;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Sumber;MATAAIR;477686;9118415;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pucungkidul;;Lereng Depresi;Jalan Desa Beton;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Sumber Dunggel;MATAAIR;478556;9116376;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Dunggudel;;Lereng Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Sumber;MATAAIR;477963;9119756;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Sooko;;Lereng Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Sumur Kangkung;SUMUR;476384;9120004;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Kangkung;tengah dusun;Lereng Depresi;Jalan Desa Beton;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Sumur Pule;SUMUR;477106;9119415;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Pule;;Pusat Depresi;Jalan setapak;;;pernah dimanfaatkan;Sumur untuk mandi, cuci, ambil air. Berair sepanjang tahun
+3312100002;GNS_WNG_ERM;Sumur Bulak;SUMUR;477102;9119848;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Gundi;;Aliran Sungai;Jalan setapak;Lele dan ikan lain;;pernah dimanfaatkan;Pemanfatan sebelum operasional pengangkatan air  Gua Suruh
+3312100002;GNS_WNG_ERM;Sumur Kadus;SUMUR;476810;9119814;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Gundi;;Aliran Sungai;Jalan setapak;Lele dan ikan lain;;pernah dimanfaatkan;Pemanfatan sebelum operasional pengangkatan air  Gua Suruh
+3312100002;GNS_WNG_ERM;Sumur Bayan 1;SUMUR;477576;9119558;539;Jawa Tengah;Wonogiri;Eromoko;Pucung;Tejosari;;Aliran Sungai;Jalan setapak;;;sudah dimanfaatkan;Distribusi ke masyarakat sejak 2003
+3312100002;GNS_WNG_ERM;Sumur Bayan 2;SUMUR;477391;9119479;541;Jawa Tengah;Wonogiri;Eromoko;Pucung;Tejosari;;Aliran Sungai;Jalan setapak;;;sudah dimanfaatkan;Distribusi ke masyarakat sejak 2003
+3312100002;GNS_WNG_ERM;Tlogo Glagah Ombo;TELAGA;475300;9121142;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Turi;;Pusat Depresi;Jalan setapak;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Tlogo Gamping;TELAGA;476362;9120606;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Turi;;Pusat Depresi;Jalan setapak;;;belum dimanfaatkan;Ponor Besar Polje Tealga Gamping
+3312100002;GNS_WNG_ERM;crack system;CRACK;476486;9119397;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Brengkut;;Puncak Bukit;Jalan Setapak ;;;belum dimanfaatkan;
+3312100002;GNS_WNG_ERM;Tebing Mur;TEBING;478695;9119584;;Jawa Tengah;Wonogiri;Eromoko;Pucung;Sooko;;Patahan;Jalan setapak;;;sudah dimanfaatkan;Tebing dapat digunakan untuk pemanjatan
+3312100002;GNS_WNG_ERM;Luweng Masjid Bongos;GUA V;478222;9116102;557;Jawa Tengah;Wonogiri;Eromoko;Pucung;Dunggudel;Masjid;Lereng Depresi;Jalan Desa Beton;;;sudah dimanfaatkan;Mataair musiman, sumber air pada waktu musim hujan, imbuhan dolina Bongos
+3312100002;GNS_WNG_ERM;Resurgen Rumah Pak Wiji;MATAAIR;477816;9116335;571;Jawa Tengah;Wonogiri;Eromoko;Pucung;Dunggudel;;Lereng Depresi;Jalan Desa Beton;;;;
+3312100002;GNS_WNG_ERM;Resurgen Rumah Pak Eko;MATAAIR;478091;9116164;564;Jawa Tengah;Wonogiri;Eromoko;Pucung;Dunggudel;;Lereng Depresi;Jalan Desa Beton;;;;
+3312100002;GNS_WNG_ERM;Luweng Dayangan;GUA V;478483;9116063;526;Jawa Tengah;Wonogiri;Eromoko;Pucung;Dunggudel;;Pusat Depresi;Jalan Setapak ;;;sudah dimanfaatkan;pengaliran dari banjir di dusun Bongos dan Dunggudel
+3312100003;GNS_WNG_ERM;Sumber Banyon;MATAAIR;477133;9120561;;Jawa Tengah;Wonogiri;Eromoko;Pasekan;Banyon;Pinggir jalan;Lereng Depresi;Jalan Desa Beton;;;sudah dimanfaatkan;
+3312100003;GNS_WNG_ERM;Sumber Jati;MATAAIR;475494;9122193;;Jawa Tengah;Wonogiri;Eromoko;Pasekan;Jati;Rimbun;Lereng Depresi;Jalan setapak;;;sudah dimanfaatkan;
+3312030001;GNS_WNG_GRT;G. Gintung;GUA H;486375;9102301;;Jawa Tengah;Wonogiri;Giritontro;Ngargoharjo;Gintung;;Pusat Depresi;Jalan Desa;;;;
+3312030001;GNS_WNG_GRT;G. Gentong;GUA H;486135;9102178;;Jawa Tengah;Wonogiri;Giritontro;Ngargoharjo;Klepu;;Pusat Depresi;Jalan Desa;;;;
+3312030001;GNS_WNG_GRT;G. Gedangan;GUA H;485293;9102276;344;Jawa Tengah;Wonogiri;Giritontro;Ngargoharjo;Ngringin;;Lereng Depresi;Jalan Setapak;;;;
+3312030001;GNS_WNG_GRT;L. Songo;GUA V;488158;9101084;321;Jawa Tengah;Wonogiri;Giritontro;Ngargoharjo;Gedangan;;Pusat Depresi;Jalan Setapak;;Aliran kecil;;Disebelahnya digali sumur untuk mandi cuci, ambil air
+3312100003;GNS_WNG_GRT;G. Seropan;GUA H;488115;9100890;333;Jawa Tengah;Wonogiri;Giritontro;Ngargoharjo;Gedangan;;Lereng Depresi;Jalan Setapak;;;;dilakukan penabangan pospat 2015
+3312100003;GNS_WNG_GRT;G.Tengger;GUA H;488767;9101599;312;Jawa Tengah;Wonogiri;Giritontro;Ngargoharjo;Selur;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;G. Kaliwungu;GUA H;488777;9099304;269;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;Ditutup
+3312100003;GNS_WNG_GRT;G. Gunung Lo;GUA H;488964;9099148;296;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;Kentongan;GUA H;488990;9099146;308;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;klepu 1;GUA H;488918;9099042;301;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;klepu II;GUA H;488572;9098763;283;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Poro;;Pusat Depresi;Jalan Setapak;;;;Ditutup
+3312100003;GNS_WNG_GRT;Tritis;GUA H;488502;9098706;292;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Poro;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;Seropan I;GUA H;488280;9098458;283;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Poro;;Pusat Depresi;Jalan Setapak;;;;Ditutup
+3312100003;GNS_WNG_GRT;Seropan II;GUA H;488928;9098684;275;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Poro;;Pusat Depresi;Jalan Setapak;;;;Ditutup
+3312100003;GNS_WNG_GRT;Losari;GUA H;489578;9099192;299;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;Seriten;GUA H;489499;9099742;302;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;
+3312100004;GNS_WNG_GRT;Ngantap;GUA H;489815;9099803;307;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Pusat Depresi;Jalan Setapak;;;;multi pit, Aliran kecil
+3312100004;GNS_WNG_GRT;Guo;GUA H;489577;9099894;323;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Klepu;;Lereng Depresi;Jalan Setapak;Walet;;;
+3312100005;GNS_WNG_GRT;Song Pari;GUA H;489510;9102875;;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Mantang;;Lereng Depresi;Jalan Setapak;;;;
+3312030001;GNS_WNG_GRT;L. Ngringin;GUA V;489689;9101404;327;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Tlogosari;;Pusat Depresi;Jalan Setapak;;;;Dekatnya ada sumur
+3312030001;GNS_WNG_GRT;L. Selur;GUA V;490068;9101235;;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Tlogosari;;Lereng Depresi;Jalan Setapak;;;;
+3312030002;GNS_WNG_GRT;L. Mabul;GUA V;489131;9098084;;Jawa Tengah;Wonogiri;Giritontro;Tlogosari;Poro;;Pusat Depresi;Jalan Setapak;;;;
+3312030002;GNS_WNG_GRT;L. Ngampel 1;GUA V;492185;9104613;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Plareng;;Lereng Depresi;Jalan Setapak;;;;
+3312030002;GNS_WNG_GRT;L. Ngampel 2;GUA V;492167;9104485;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Plareng;;Lereng Depresi;Jalan Setapak;;;;
+3312030002;GNS_WNG_GRT;L. Ngampel 3;GUA V;490437;9105273;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Tlogoharjo;;Lereng Depresi;Jalan Povinsi;;;;
+3312030002;GNS_WNG_GRT;L. Ngeses 1;GUA V;492533;9106312;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Lereng Depresi;Jalan Setapak;;;;Sempat digunakan tempat pembuangan kotoran manusia, 2006 sudah tidak. Check ulang koordinat
+3312030002;GNS_WNG_GRT;L. Ngeses 2;GUA V;491037;9106464;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;;;Lereng Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Suruh;GUA V;492581;9105927;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Lereng Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Njlubang;GUA V;490930;9106428;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;;;Pusat Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Ndondong;GUA V;490715;9105500;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Sambirejo;;Lereng Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Jomblang;GUA V;492019;9106518;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Lereng Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Dawung;GUA V;491233;9106376;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;;;Pusat Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Bulaklempar;GUA V;492815;9106424;388;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Pusat Depresi;Jalan Setapak;;Sungai Bawah Tanah;;update Zaenuri, Istriyar, dkk, 2012
+3312030002;GNS_WNG_GRT;L. Kali;GUA V;491998;9104662;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Plareng;;Lereng Depresi;;;;;
+3312030002;GNS_WNG_GRT;L. Tlogosari;GUA V;492015;9104634;391;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Plareng;;Pusat Depresi;Jalan Setapak;;;;Aliran air masuk ke gua berasal dari sungai permukaan
+3312100002;GNS_WNG_GRT;L. Bengle;GUA V;491565;9104570;392;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Plareng;;Pusat Depresi;Jalan desa;;;;Mulut gua/ponor tertutup sampah
+3312100002;GNS_WNG_GRT;L. Jomblang Poro;GUA V;491362;9104108;403;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Pagergunung;;Lereng Depresi;Jalan Setapak;Walet;;;
+3312100003;GNS_WNG_GRT;Luweng jambu timur;GUA V;491088;9104093;377;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Pagergunung;;Lereng Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;Luweng Prembe;GUA V;491535;9105354;380;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Klepu;;Lereng Depresi;Jalan Setapak;;;;Banyak sampah di dalam lorong
+3312100003;GNS_WNG_GRT;Pager Gunung;GUA V;491284;9105383;422;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Klepu;;Lereng Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;Jomlang Setro;GUA V;492815;9106416;385;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Pusat Depresi;Jalan Setapak;;Sungai Bawah Tanah;;Aliran kecil
+3312100003;GNS_WNG_GRT;Gotong I;GUA V;492845;9106435;388;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Pusat Depresi;Jalan Setapak;;Aliran tetesan air;;Mandi, Cucidan ambil air di dalam gua
+3312100003;GNS_WNG_GRT;Gotong II;GUA V;492947;9106040;442;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Prembe;;Lereng Depresi;Jalan Setapak;;Tetesan Air;;Aliran dari tetesan air diambil masyrakat
+3312100003;GNS_WNG_GRT;Kelor;GUA V;492471;9104936;426;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Jajar;;Pusat Depresi;Jalan Setapak;;;;
+3312100003;GNS_WNG_GRT;Ngaglik;GUA V;492364;9104742;428;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Plareng;;Lereng Depresi;Jalan Desa;;;;
+3312100003;GNS_WNG_GRT;gua Salak Nade;GUA;492631;9105415;433;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Jajar;;Lereng Depresi;Jalan Setapak;;;;Mulut banyak sampah
+3312100004;GNS_WNG_GRT;Jomblang;GUA V;489905;9104619;384;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Kelor;;Pusat Depresi;Jalan Setapak;;;;Mulut gua ditutupi batu
+3312100004;GNS_WNG_GRT;Kalongan;GUA V;490262;9104524;401;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Kelor;;Lereng Depresi;Jalan Setapak;;;;
+3312100004;GNS_WNG_GRT;Luweng;GUA V;490536;9106072;;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Sambirejo;;Pusat Depresi;;;;;
+3312100004;GNS_WNG_GRT;Ngaluran;GUA V;491098;9103764;424;Jawa Tengah;Wonogiri;Giritontro;Tlogoharjo;Ginade Wetan;;Lereng Depresi;;;;;
+3312100004;GNS_WNG_GRT;Salam;GUA;490219;9106854;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Wates;;;;;;;
+3312100004;GNS_WNG_GRT;Slipat;GUA V;489818;9107080;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100004;GNS_WNG_GRT;Gunung Bromo;GUA V;489440;9106768;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngantap;;Pusat Depresi;;;;;Gua Wisata, diambil air oleh masyarakat
+3312100004;GNS_WNG_GRT;G. Beleh;GUA V;489527;9106838;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngantap;;;;;;;
+3312100004;GNS_WNG_GRT;Polan Air;GUA;489568;9106754;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngantap;;;;;;;
+3312100004;GNS_WNG_GRT;Luweng Plalar;GUA V;489742;9106566;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngantap;;;;;;;
+3312100004;GNS_WNG_GRT;Luweng Watupulut;GUA V;489644;9106340;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngantap;;;;;;;
+3312100004;GNS_WNG_GRT;Luweng Ngelo;GUA V;489942;9106638;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngantap;;;;;;;
+3312100005;GNS_WNG_GRT;Asu;GUA V;489337;9107778;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Guwo;;;;;;;
+3312100005;GNS_WNG_GRT;Miri;GUA V;490114;9107678;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Guwo;;Pusat Depresi;;;;;
+3312100005;GNS_WNG_GRT;Pithak;GUA V;489378;9107558;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Guwo;;;;;;;
+3312100005;GNS_WNG_GRT;Bendho;GUA V;489797;9108076;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100005;GNS_WNG_GRT;Gemplo;GUA V;488663;9106436;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100005;GNS_WNG_GRT;Giyem;GUA V;490740;9106439;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;Pusat Depresi;;;;;
+3312100005;GNS_WNG_GRT;Sandi;GUA V;488440;9106022;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100005;GNS_WNG_GRT;Songo;GUA V;488838;9104280;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Beleh;;Pusat Depresi;;;;;
+3312100005;GNS_WNG_GRT;Fitrah;GUA V;489720;9108035;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Bromo;;Lereng Depresi;Jalan Setapak;;aliran kecil;;Diambil airnya oleh masyarakat
+3312100005;GNS_WNG_GRT;Pace;GUA V;489571;9104592;378;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Beleh;;Lereng Depresi;Jalan Setapak;Walet;;;Check lagi, koordinat kemungkinan salah. Buto.
+3312100007;GNS_WNG_GRT;Soco II / Disudet & Dibendung;GUA V;488550;9106022;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;Ngaluran;;;;;;;
+3312100007;GNS_WNG_GRT;Soco I/Ponor kecil;GUA V;490095;9107690;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100007;GNS_WNG_GRT;L. Sapi;GUA V;489920;9108035;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100007;GNS_WNG_GRT;Kenteng;GUA V;488380;9109081;;Jawa Tengah;Wonogiri;Giritontro;Pucang Anom;Sukoroyom;;Pusat Depresi;;;;;
+3312100003;GNS_WNG_GRT;Ponor Jambu;PONOR;488850;9105180;;Jawa Tengah;Wonogiri;Giritontro;Bayemharjo;;;;;;;;
+3312100003;GNS_WNG_GRT;NN;PONOR;488340;9108004;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;Ponor;PONOR;487827;9108410;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;ponor pada kekar/diaklas;PONOR;486978;9108813;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;ponor;PONOR;488096;9108755;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;Ponor;PONOR;488881;9108212;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;Ponor;PONOR;488807;9108150;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;Ponor;PONOR;488823;9108126;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;Ponor;PONOR;488459;9108642;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100004;GNS_WNG_GRT;Luweng Jambu;PONOR;488609;9108512;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100005;GNS_WNG_GRT;Ponor;PONOR;488971;9108492;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100003;GNS_WNG_GRT;Mataair Jambu;MATAAIR;488643;9107748;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100003;GNS_WNG_GRT;Mataair Prembe;MATAAIR;488767;9107852;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100003;GNS_WNG_GRT;mataair;MATAAIR;487984;9107311;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100003;GNS_WNG_GRT;pancuran;MATAAIR;488052;9106128;;Jawa Tengah;Wonogiri;Giritontro;Giritontro;;;;;;;;
+3312100003;GNS_WNG_GRT;Mataair Kentongan;MATAAIR;486501;9109136;;Jawa Tengah;Wonogiri;Giritontro;Pucang Anom;;;;;;;;
+3312100005;GNS_WNG_GRT;Mangirmati;MATAAIR;488099;9109183;;Jawa Tengah;Wonogiri;Giritontro;Pucang Anom;;;;;;;;
+3312100005;GNS_WNG_GRT;Teleng;MATAAIR;488057;9109176;;Jawa Tengah;Wonogiri;Giritontro;Pucang Anom;;;;;;;;
+3312040001;GNS_WNG_GRW;Gua Sendang;GUA;491964;9107853;302;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;dipinggir kampung;Alur Lembah;jalan setapak;;;belum dimanfaatakan;satu rumah ikut runtuh. Svyr Dwi, Jihad, Yanto, Bowo, Suranto
+3312040001;GNS_WNG_GRW;Gua Sriti;GUA H;491262;9108875;402;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;;Lereng Depresi;;;;;
+3312040001;GNS_WNG_GRW;Gua Lawa;GUA H;492453;9106826;421;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jatiwangi;;Pusat Depresi;;;;;
+3312040001;GNS_WNG_GRW;Gua Nduwur Kali;GUA H;491995;9106855;352;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jatiwangi;;Lereng Depresi;;;;;
+3312040001;GNS_WNG_GRW;Karangpulut;GUA H;492456;9108225;378;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;;Lereng Depresi;;;;;
+3312040001;GNS_WNG_GRW;NN02;GUA H;491457;9108257;379;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;ladang;Puncak Bukit;jalan setapak;jati, umbi-umbian;;sudah dimanfaatkan;diambil batu lintang
+3312040001;GNS_WNG_GRW;Bromo;GUA H;491476;9108546;363;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;ladang;Puncak Bukit;jalan setapak;jati, mahoni, akasia;;belum dimanfaatakan;
+3312040001;GNS_WNG_GRW;Gua Puring;GUA H;491559;9109037;354;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;atas sumber bodro;Lereng Depresi;jalan setapak;;;belum dimanfaatkan;Svyr Wahyu, Pandi, Kevin
+3312040001;GNS_WNG_GRW;Gua Kapel;GUA H;490115;9109226;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;NN03;GUA H;490779;9109238;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;Gua Grenjeng;GUA H;490274;9109450;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Gua Lor Kramat;GUA H;490681;9109752;366;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Ngampel;pohon beringin;Lereng Depresi;jalan desa beton;pohon beringin;sungai bawah tanah permanen;sudah dimanfaatkan;dibendung dan dialirkan ke reservoar di luar gua. Svyr Wahyu, Pandi, Kevin
+3312040002;GNS_WNG_GRW;NN04;GUA H;491925;9109802;329;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;sebelah SD 1;Pusat Depresi;jalan desa beton;semak;;belum dimanfaatkan;ponor konduit. Svyr Sonora, Suyono, Marino, Jonggring
+3312040002;GNS_WNG_GRW;Gua kali kidul;GUA H;492045;9109913;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Gua Tail;GUA H;492338;9110948;260;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Granjeng;ladang;Lereng Depresi;jalan makadam;pohon bambu semak;;belum dimanfaatakan;aka Kali Timbo
+3312040002;GNS_WNG_GRW;Gua Katam;GUA H;490963;9106959;430;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Keji;;Lereng Depresi;;;;;
+3312040002;GNS_WNG_GRW;Langse;GUA H;493188;9107220;439;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;vegetasi campur rapat
+3312040002;GNS_WNG_GRW;Gua Tameng;GUA H;492054;9107453;306;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;Bukit;;;;;campur rapat
+3312040002;GNS_WNG_GRW;Gua Gunung Gede;GUA H;494738;9107827;435;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;kelelawar
+3312040002;GNS_WNG_GRW;Gua Sandermo;GUA H;491973;9107888;311;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;dekat ladang;Pusat Depresi;jalan setapak;awar-awar, ikan kecil;;belum dimanfaatakan;ponor konduit. Svyr Dwi, Jihad, Yanto, Bowo, Suranto
+3312040002;GNS_WNG_GRW;NN06;GUA H;491486;9108002;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040003;GNS_WNG_GRW;Gua Tirta;GUA H;492148;9108242;316;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;dekat pohon jati;Lereng Depresi;jalan setapak;;mataair permanen;sudah dimanfaatkan;
+3312040003;GNS_WNG_GRW;NN07;GUA H;494010;9108442;435;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;kelelawar;;;
+3312040003;GNS_WNG_GRW;NN08;GUA H;493370;9108500;391;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;Tebing;;;;;
+3312040014;GNS_WNG_GRW;Gua Sangga Buana;GUA H;494967;9108656;464;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;Lereng Depresi;;;;;
+3312040014;GNS_WNG_GRW;Platar;GUA H;492910;9109865;302;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;Karang Duet;pohon ringin;Lereng Depresi;jalan desa beton;;sungai bawah tanah;sudah dimanfaatkan;terdapat 2 enterance yang satunya sbg outlet air
+3312040002;GNS_WNG_GRW;Gua Pucung;GUA;493336;9110404;;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;;;;;;;;
+3312040002;GNS_WNG_GRW;Gua Gunung Tambahan;GUA;493681;9110414;;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;;;;;;;;
+3312040002;GNS_WNG_GRW;Gua Sembung;GUA;488202;9112024;207;Jawa Tengah;Wonogiri;Giriwoyo;Platarrejo;Platar;pohon beringin;Lereng Depresi;jalan setapak;Kelelawar, lele, luwak, amplipigi;sungai bawah tanah;sudah dimanfaatkan;didepan mulut gua ada mataair permanen, dimanfaatkan dengan pompa listrik, ada tempat mandi cuci.
+3312040001;GNS_WNG_GRW;Gua Batur 1;GUA V;488083;9112081;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;;;;;;
+3312040001;GNS_WNG_GRW;Gua Batur 2;GUA V;491126;9108662;432;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;gubug ladang;Lereng Depresi;jalan setapak;jati, pisang, akasia;;belum dimanfaatakan;
+3312040001;GNS_WNG_GRW;Luweng Song Mabul;GUA V;491374;9108737;450;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;ladang;Puncak Bukit;jalan setapak;jati, umbi-umbian;;belum dimanfaatakan;
+3312040001;GNS_WNG_GRW;Luweng Manggung;GUA V;490640;9108975;435;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Nongko Sawit;sawah;Lereng Depresi;jalan desa beton;;;belum dimanfaatakan;
+3312040001;GNS_WNG_GRW;Luweng Sampah;GUA V;491851;9110543;284;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Manggung;dekat sumur bor;Lereng Depresi;jalan desa beton;bambu, jati;;belum dimanfaatakan;samping pemukiman
+3312040001;GNS_WNG_GRW;Luweng Karang;GUA V;491925;9110682;270;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Manggung;Depan rumah;Lereng Depresi;jalan desa beton;pepaya, pisang, jati;;sudah dimanfaatkan;tempat pembuangan sampah
+3312040002;GNS_WNG_GRW;Luweng Tlogo Glimbung;GUA V;492306;9110952;260;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Talunombo;ladang;Pusat Depresi;jalan setapak;pohon bambu;resapan air;belum dimanfaatakan;
+3312040002;GNS_WNG_GRW;Sriten Keji;GUA V;493713;9106812;456;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;inlet, pembuangan sampah
+3312040002;GNS_WNG_GRW;NN05;GUA V;491387;9106870;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Plaosan;GUA V;493397;9107042;472;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Luweng Bengkung;GUA V;490642;9107298;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Gua Siket;GUA V;492572;9107325;395;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jambewangi;sebelah utara ada bambu;Pusat Depresi;jalan setapak;;;belum dimanfaatakan;Svyr Ariyanto, Slamet, Dika, Warino
+3312040002;GNS_WNG_GRW;Luweng Piji;GUA V;492792;9107599;419;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jambewangi;;Lereng Depresi;jalan setapak;;;belum dimanfaatakan;Svyr Ariyanto, Slamet, Dika, Warino
+3312040002;GNS_WNG_GRW;Luweng Besole;GUA V;493612;9107694;452;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Luweng Sembung1;GUA V;492938;9107718;412;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jambewangi;;Lereng Depresi;jalan setapak;;;belum dimanfaatakan;Svyr Ariyanto, Slamet, Dika, Warino
+3312040002;GNS_WNG_GRW;luweng Gunung Wedus;GUA V;493193;9107925;414;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jambewangi;;Lereng Depresi;jalan setapak;jati, bambu, mahoni;;belum dimanfaatakan;Svyr Ariyanto, Slamet, Dika, Warino
+3312040002;GNS_WNG_GRW;Luweng Sembung2;GUA V;492403;9108077;394;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Sembung;;Lereng Depresi;jalan perintis;akasia, jati;;belum dimanfaatakan;slope. Svyr Ariyanto, Slamet, Dika, Warino
+3312040002;GNS_WNG_GRW;Luweng Njebek;GUA V;492584;9108100;;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;vegetasi besar rapat
+3312040002;GNS_WNG_GRW;luweng Dondong;GUA V;492621;9108265;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;Update Forum Caving Surakarta 2013
+3312040014;GNS_WNG_GRW;Kucing;GUA V;492659;9108469;385;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Jambewangi;di atas gunung jomblang;Puncak Bukit;jalan setapak;mahoni, jati, akasia;;sudah dimanfaatkan;diambil guano oleh orang jogja, update KMPA Giri Bahama 2016
+3312040014;GNS_WNG_GRW;Sapi;GUA V;494440;9108564;465;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;
+3312100014;GNS_WNG_GRT;Luweng Potro;GUA V;488432;9109095;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;;;;;;
+3312040001;GNS_WNG_GRW;Gunung Bromo;GUA V;488264;9109116;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;;;;;;
+3312040002;GNS_WNG_GRW;Luweng Kepek;GUA V;488556;9109047;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;Pusat Depresi;;;;;Update KMPA Giri Bahama (2006), Zaenuri dkk (2012)
+3312040002;GNS_WNG_GRW;Kali Obalan;MATAAIR;489380;9109060;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;Ponor3;PONOR;493888;9108282;175;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Ponor4;PONOR;494421;9109026;407;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Ponor2;PONOR;494566;9109116;415;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;Lereng Depresi;;;;;rembesan, sumber utama saat kemarau
+3312040001;GNS_WNG_GRW;Ponor1;PONOR;490731;9108680;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;Ponor 2 Pak Warsodo;PONOR;491154;9108875;405;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;gubug ladang;Lereng Depresi;jalan setapak;kelapa,jati,trembesi;sumberair;sudah dimanfaatkan;dimanfaatkan oleh warga ngampel dan darmosito
+3312040001;GNS_WNG_GRW;Ponor 1 Pak Warsodo;PONOR;491678;9109039;316;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;samping gedung pertemuan;Alur Lembah;jalan desa beton;pohon joho;mataair permanen;sudah dimanfaatkan;dimanfaatkan 20kk. Svyr Sonara, Suyono, Marino, Jonggring
+3312040001;GNS_WNG_GRW;Ponor Gereja;PONOR;490137;9109248;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Ponor5;PONOR;489964;9109624;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Luweng;PONOR;489991;9109641;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040003;GNS_WNG_GRW;Luweng Miri Sawit;PONOR;489836;9109672;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040003;GNS_WNG_GRW;Sengon;PONOR;490714;9109776;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040003;GNS_WNG_GRW;Tileng;PONOR;490746;9109870;360;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Tlogobandung;pohon beringin;Lereng Depresi;jalan makadam;;mataair permanen;sudah dimanfaatkan;pemanfaatan satu dukuh, ada tempat mandi cuci. Svyr Wahyu, Pandi, Kevin
+3312040003;GNS_WNG_GRW;Kali Timbo;PONOR;490507;9110082;354;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Simpar;pohon beringin;Lereng Depresi;jalan desa beton;semut  hitam, rengit;mataair permanen;sudah dimanfaatkan;dibuat reservoar dan dialirkan ke rumah-rumah. Svyr Wahyu, Pandi, Kevin
+3312040001;GNS_WNG_GRW;Sumur Warih Nugroho;SUMUR;490851;9110297;328;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Klego;bawah pohon ringin;Lereng Depresi;jalan desa beton;ringin,jambu,;mata air;sudah dimanfaatkan;dimanfaaatkan utk perikanan irigasi & kbthan pddk
+3312040001;GNS_WNG_GRW;Tugino;SUMUR;490322;9110386;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumur Ari;SUMUR;490940;9110442;304;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Klego;bawah pohon ringin;Alur Lembah;jalan makadam;ringin,jambu,;mata air;sudah dimanfaatkan;dimanfaatkan desa, dibawahnya grujugan
+3312040001;GNS_WNG_GRW;Sumur Bor Pak Warsodo;SUMUR;491290;9110508;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumur Kapel;SUMUR;491142;9110580;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumur Tk Darma Wanita;SUMUR;490840;9110814;315;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Ngemplak;;Lereng Depresi;jalan desa beton;;sumberair;sudah dimanfaatkan;dimanfaatkan warga, sumber musiman
+3312040002;GNS_WNG_GRW;Sumur Bor Kerok;SUMUR;491479;9111065;291;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Banyuripan;bawah pohon trembesi;Lereng Depresi;jalan makadam;trembesi;mata air;sudah dimanfaatkan;
+3312040002;GNS_WNG_GRW;mataair;MATAAIR;491649;9111535;284;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Banyuripan;bawah pohon beringin;Lereng Depresi;jalan desa beton;;mata air;sudah dimanfaatkan;digunakan oleh warga
+3312040002;GNS_WNG_GRW;Mata Air;MATAAIR;492302;9107213;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Mata Air;MATAAIR;491256;9107289;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;NN01;MATAAIR;492017;9107546;300;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumber Sendang;MATAAIR;491981;9107832;309;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;;Alur Lembah;jalan setapak;ikan;mataair permanen;sudah dimanfaatkan;Air minum, dipompa listrik. Svyr Dwi, Jihad, Yanto, Bowo, Suranto
+3312040001;GNS_WNG_GRW;Sendang Bodro Sejati;MATAAIR;494775;9107919;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Mataair Bromo;MATAAIR;491044;9107959;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Mataair;MATAAIR;492045;9108007;313;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;;Pusat Depresi;jalan setapak;;mataair permanen;belum dimanfaatakan;mata air keluar dari bawah pohon, masuk ke dalam rekahan. Svyr Dwi, Jihad, Yanto, Bowo, Suranto
+3312040001;GNS_WNG_GRW;Mataair Simpar 1;MATAAIR;492063;9108012;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Ngampel;MATAAIR;492098;9108052;311;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Tameng;di tengah ladang;Pusat Depresi;jalan setapak;;mataair permanen;sudah dimanfaatkan;Air minum, dipompa listrik. Svyr Dwi, Jihad, Yanto, Bowo, Suranto
+3312040001;GNS_WNG_GRW;Mataair Ngampel;MATAAIR;492185;9108255;298;Jawa Tengah;Wonogiri;Giritontro;Girikikis;;;Lereng Depresi;;;;;campur rapat
+3312040001;GNS_WNG_GRW;Mata Air Tlogobandung;MATAAIR;492812;9108427;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumber Simpar;MATAAIR;494740;9108649;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Klego Atas;MATAAIR;495046;9108908;439;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;sumber Kali Andong;MATAAIR;494271;9108936;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040001;GNS_WNG_GRW;Klego Bawah;MATAAIR;494262;9109598;404;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;Klumpit;;Lereng Depresi;jalan desa beton;;;sudah dimanfaatkan;
+3312040001;GNS_WNG_GRW;Sumber winong;MATAAIR;492490;9112073;;Jawa Tengah;Wonogiri;Giriwoyo;Giriwoyo;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumber Lo;MATAAIR;492936;9112108;;Jawa Tengah;Wonogiri;Giriwoyo;Giriwoyo;;;;;;;;
+3312040001;GNS_WNG_GRW;Sumber Kenteng;MATAAIR;492018;9112495;;Jawa Tengah;Wonogiri;Giriwoyo;Sejati;;;;;;;;
+3312040001;GNS_WNG_GRW;Banyuripan1;MATAAIR;491977;9112589;;Jawa Tengah;Wonogiri;Giriwoyo;Sejati;;;;;;;;
+3312040001;GNS_WNG_GRW;Banyuripan2;MATAAIR;490628;9113628;;Jawa Tengah;Wonogiri;Giriwoyo;Sejati;;;;;;;;
+3312040002;GNS_WNG_GRW;Mataair Jambewangi;MATAAIR;488196;9110109;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;;;;;;
+3312040002;GNS_WNG_GRW;Sumber Kerok;MATAAIR;487998;9110688;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;;;;;;
+3312040002;GNS_WNG_GRW;Mataair Tameng 4;MATAAIR;487945;9110720;;Jawa Tengah;Wonogiri;Giriwoyo;Platarejo;;;;;;;;
+3312040002;GNS_WNG_GRW;Kali Tameng Kidul;MATAAIR;489994;9108298;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Sumber Tail;MATAAIR;490389;9108306;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Mataair Kerok;MATAAIR;489776;9108818;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Kali Mbatu;MATAAIR;489418;9109606;;Jawa Tengah;Wonogiri;Giriwoyo;Titosuworo;;;;;;;;
+3312040002;GNS_WNG_GRW;Mataair Tameng 2;MATAAIR;490537;9109637;380;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Ngampel;dihalaman rumah;Pusat Depresi;jalan makadam;;;belum dimanfaatakan;terdapat tata batuan di tepi ponor dan ditutupi bambu. Svyr Wahyu, Pandi, Kevin
+3312040002;GNS_WNG_GRW;Sumber Lemah mendok;MATAAIR;490538;9109640;379;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Ngampel;dihalaman rumah;Pusat Depresi;jalan makadam;;;belum dimanfaatakan;didalam ponor ada saringan besi untuk menahan sampah yang masuk ke ponor. Svyr Wahyu, Pandi, Kevin
+3312040002;GNS_WNG_GRW;Mataair Njebek;MATAAIR;490422;9109720;391;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Ngampel;;Pusat Depresi;jalan desa beton;;;belum dimanfaatakan;terdapat tata batuan di tepi ponor dan ditutupi bambu. Svyr Wahyu, Pandi, Kevin
+3312040002;GNS_WNG_GRW;Mataair Dondong;MATAAIR;491026;9107386;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Sumber Glonggong;MATAAIR;494709;9108489;;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;;;;;;;;
+3312040002;GNS_WNG_GRW;Mataair Mbamban;MATAAIR;493235;9108453;396;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;Baksari;;Pusat Depresi;jalan setapak;pisang, jagung, singkong;resapan air;belum dimanfaatakan;
+3312040003;GNS_WNG_GRW;Sumber Klumpit;MATAAIR;492947;9109074;348;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;Baksari;ladang;Pusat Depresi;jalan setapak;jati, bambu, mahoni;;belum dimanfaatakan;
+3312040007;GNS_WNG_GRW;Kali kakap;MATAAIR;492591;9109511;344;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;Tambah Rejo;ladang jagung;Pusat Depresi;jalan makadam;jagung, pohon petai, jati;;belum dimanfaatakan;disaat hujan air masuk di dalam ponor tersebut
+3312040008;GNS_WNG_GRW;Ngebrak kidul;MATAAIR;493341;9110285;;Jawa Tengah;Wonogiri;Giriwoyo;Guotirto;;;;;;;;
+3312040012;GNS_WNG_GRW;Kali Genuk;MATAAIR;492026;9109101;329;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;belakang rumah p cipto;Alur Lembah;jalan desa beton;;sumur permanen;sudah dimanfaatkan;dimanfaatkan 20kk. Svyr Sonara, Suyono, Marino, Jonggring
+3312040012;GNS_WNG_GRW;Kali Tukluk;MATAAIR;491856;9109109;;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;belakang rumah m tugino;Alur Lembah;jalan makadam;;sumur permanen;sudah dimanfaatkan;Svyr Sonara, Suyono, Marino, Jonggring
+3312040012;GNS_WNG_GRW;Teleng;MATAAIR;491969;9109443;327;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;belakang rumah mas ari;Alur Lembah;jalan desa beton;;sumur permanen;sudah dimanfaatkan;kedalaman 24 m, dimanfaatkan 35kk. Svyr Sonara, Suyono, Marino, Jonggring
+3312040014;GNS_WNG_GRW;Sekoro;MATAAIR;490572;9109655;391;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Ngampel;samping rumah;Pusat Depresi;jalan makadam;;sumur permanen;sudah dimanfaatkan;dimanfaatkan keluarga pak warsono, kedalaman sumur 13 meter, kualitas dan kuantitas baik. Svyr Wahyu, Pandi, Kevin
+3312040014;GNS_WNG_GRW;NN10;MATAAIR;491934;9109732;332;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;dekat SD kansius;Alur Lembah;jalan desa beton;pohon palm;sumur permanen;sudah dimanfaatkan;Svyr Sonara, Suyono, Marino, Jonggring
+3312040014;GNS_WNG_GRW;NN09;MATAAIR;490704;9109943;355;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Simpar;TK darma wanita;Lereng Depresi;jalan desa beton;;;sudah dimanfaatkan;dimanfaatkan SD dan TK, kedalaman sampai 5.10 m diameter 1.8m. Svyr Wahyu, Pandi, Kevin
+3312040001;GNS_WNG_GRW;Telogo Njeruk;TELAGA;491251;9108148;383;Jawa Tengah;Wonogiri;Giriwoyo;Girikikis;Kerok;tengah ladang;Lereng Depresi;jalan setapak;;;sudah dimanfaatkan;
+3312040002;GNS_WNG_GRW;Lemah Ambles;COLLAPS;491358;9108104;386;Jawa Tengah;Wonogiri;Giriwoyo;Tirtosuworo;Darmosito;ladang;Pusat Depresi;jalan setapak;jagung, bambu, jati, akaisa;;sudah dimanfaatkan;dimanfaatkan untuk pengairan pertanian
+3312020001;GNS_WNG_PRG;G. Grimbal;GUA H;482028;9094710;108;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Klampean;;Lereng Depresi;-;;;;-
+3312020002;GNS_WNG_PRG;L_Gondang;GUA H;489558;9093491;93;Jawa Tengah;Wonogiri;Paranggupito;Gudang Harjo;Duren;;Lereng Depresi;Jalan Setapak;;;;MCK
+3312020002;GNS_WNG_PRG;G. Song Luweng;GUA H;486089;9096266;207;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Wedungan;;Tebing/Patahan;Jalan Setapak;;;;
+3312020003;GNS_WNG_PRG;G. Grungungan;GUA H;487218;9094384;139;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Guntur;;;;;;;
+3312020003;GNS_WNG_PRG;G. Suci;GUA H;488190;9096183;171;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Plawon;;;;;;;
+3312020003;GNS_WNG_PRG;G. NN;GUA H;488900;9093296;109;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Plawon;;;;;;;
+3312020003;GNS_WNG_PRG;G . Sawah;GUA H;489462;9093513;99;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Sawah;;;;;;;
+3312020007;GNS_WNG_PRG;G. NN;GUA H;482040;9099876;278;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Tlogorejo;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. NN;GUA H;482324;9099529;250;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Tlogorejo;;Pusat Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Karangpasir 1;GUA H;482005;9099893;270;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Tlogorejo;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Karangpasir 2;GUA H;481995;9099854;260;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Tlogorejo;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Jomblang;GUA H;481355;9099608;140;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Janglot;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Karet;GUA H;481633;9099450;256;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;GodangSari;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Srajut;GUA H;481203;9099288;237;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Lumujing;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Krokoh;GUA H;481203;9099288;237;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Lumujing;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;G. Kutah;GUA H;480012;9097657;133;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Jamburejo;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;G. Kendat;GUA H;484888;9100438;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Prengguk;;Lereng Depresi;;;;;
+3312020001;GNS_WNG_PRG;L. Karang Wungu;GUA V;483958;9097020;215;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Karangwungu;;Pusat Depresi;Jalan Setapak;;;;Tertutup
+3312020001;GNS_WNG_PRG;L. banteng;GUA V;484224;9095276;135;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Banteng;;Lereng Depresi;Jalan Setapak;;;;Multi pitch. crac
+3312020001;GNS_WNG_PRG;L. Sawit;GUA V;484340;9095875;184;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Sawit;;Pusat Depresi;Jalan Setapak;;;;tertutup
+3312020001;GNS_WNG_PRG;L. Sawit II;GUA V;483845;9096383;193;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Sawit;;Pusat Depresi;Jalan Setapak;;;;Menyempit Kedalam
+3312020001;GNS_WNG_PRG;L. Suling;GUA V;484094;9094967;130;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Karangkulon;;Pusat Depresi;Jalan Setapak;;;;
+3312020001;GNS_WNG_PRG;L. Karangkulon;GUA V;483755;9094371;98;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Karangkulon;;Pusat Depresi;Jalan Setapak;;;;
+3312020001;GNS_WNG_PRG;L. WatuMiring;GUA V;484083;9093065;78;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Bandungan;;Lereng Depresi;Jalan Setapak;;;;Multi pitch. good
+3312020001;GNS_WNG_PRG;L. Gulumampang;GUA V;484347;9094989;132;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Ngelo;;Pusat Depresi;Jalan Setapak;;;;Dagling
+3312020001;GNS_WNG_PRG;L. Nguni;GUA V;484844;9096954;213;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Nguni;;Pusat Depresi;Jalan Setapak;;;;GOOD
+3312020001;GNS_WNG_PRG;L. Kranding;GUA V;483334;9094923;131;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Kranding;;Pusat Depresi;Jalan Setapak;;;;tertutup
+3312020001;GNS_WNG_PRG;L. Balong;GUA V;483399;9095282;131;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Kranding;;Lereng Depresi;Jalan Setapak;;;;
+3312020001;GNS_WNG_PRG;L. Setro;GUA V;484636;9095717;195;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Setro;;Pusat Depresi;Jalan Setapak;;;;
+3312020001;GNS_WNG_PRG;Telogo Tangkil;GUA V;484377;9093282;44;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Tangkil;;Pusat Depresi;Jalan Setapak;;;;Air Keruh
+3312020001;GNS_WNG_PRG;L. Sawah;GUA V;484189;9093290;39;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;sawah;;Lereng Depresi;Jalan Setapak;;;;Multi pitch. good
+3312020001;GNS_WNG_PRG;L. ngringin;GUA V;484407;9094167;95;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Bandungan;;Pusat Depresi;Jalan Setapak;;;;tertutup
+3312020001;GNS_WNG_PRG;L. Bandungan;GUA V;484444;9094739;130;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Bandungan;;Pusat Depresi;Jalan Setapak;;;;tertutup
+3312020001;GNS_WNG_PRG;L. SongDuwur;GUA V;484651;9094739;60;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Songduwur;;Tebing;Jalan Setapak;;;;crack,Vg
+3312020001;GNS_WNG_PRG;L. AlasGung;GUA V;484543;9093690;69;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Songduwur;;Lereng Depresi;Jalan Setapak;;;;-
+3312020001;GNS_WNG_PRG;L. Kranding II;GUA V;483499;9095299;112;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Kranding;;Lereng Depresi;Jalan Setapak;;;;crack
+3312020001;GNS_WNG_PRG;L. Setro II;GUA V;484488;9096240;214;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Setro;;Lereng Depresi;Jalan Setapak;;;;Ambles
+3312020001;GNS_WNG_PRG;L. Ngledok;GUA V;482675;9095037;110;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;Klampean;;Lereng Depresi;Jalan Setapak;;;;-
+3312020001;GNS_WNG_PRG;L. Branjang Wetan;GUA V;486065;9093730;;Jawa Tengah;Wonogiri;Paranggupito;Paranggupito;;;;;;;;
+3312020002;GNS_WNG_PRG;L. BranjangKulon;GUA V;485714;9093741;32;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Branjang;;Lereng Depresi;Jalan Setapak;Walet;;;
+3312020002;GNS_WNG_PRG;L. Joso;GUA V;486065;9095377;140;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Bogor;;Pusat Depresi;Jalan Setapak;;Aliran air;;
+3312020002;GNS_WNG_PRG;L. NN;GUA V;485801;9095983;230;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Bogor;;Lereng Depresi;Jalan Setapak;Kelelawar;;;
+3312020002;GNS_WNG_PRG;L. Tobongan;GUA V;485269;9095895;190;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Bogor;;Pusat Depresi;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;L. Branjang 1;GUA V;486065;9093730;94;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Jahen;;Pusat Depresi;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;L. Jaen;GUA V;484843;9094310;111;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Jahen;;Lereng Depresi;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;L. Jaen II;GUA V;485360;9094450;150;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Jahen;;Lereng Depresi;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;L. Jomblang;GUA V;485360;9094450;;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Jahen;;;;;;;
+3312020002;GNS_WNG_PRG;L. Hambusan;GUA V;488035;9092505;26;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Ngambusan;;Pusat Depresi;Jalan Setapak;;;;Tembus laut
+3312020002;GNS_WNG_PRG;L. Ngelo;GUA V;484192;9094848;144;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Ngelo;;Lereng Depresi;;;;;
+3312020002;GNS_WNG_PRG;L. Pakel Kopek;GUA V;486386;9096122;179;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Pakel Kopek;;Pusat Depresi;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;L. Papin;GUA V;486146;9094435;117;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Papin;;Lereng Depresi;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;G. Jomblang;GUA V;486036;9096338;227;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Wedungan;;Tebing/Patahan;Jalan Setapak;;;;
+3312020002;GNS_WNG_PRG;Song Luweng;GUA V;486038;9096225;193;Jawa Tengah;Wonogiri;Paranggupito;Gudangharjo;Wedungan;;Pusat Depresi;Jalan Setapak;;;;
+3312020003;GNS_WNG_PRG;L. Blimbing;GUA V;487500;9096318;169;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Ngasem;;Pusat Depresi;Jalan Setapak;;;;
+3312020003;GNS_WNG_PRG;L. Sigar;GUA V;487459;9095865;164;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Puwun;;Lereng Depresi;Jalan Setapak;;;;Sistem crack
+3312020003;GNS_WNG_PRG;L. Talunombo;GUA V;487003;9095901;180;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Talunombo;;;Jalan Setapak;;;;
+3312020003;GNS_WNG_PRG;L. NN;GUA V;489265;9093463;96;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Talunombo;;;Jalan Setapak;;;;
+3312020003;GNS_WNG_PRG;L. Suling;GUA V;488030;9095785;195;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Puwun;;;;;;;
+3312020003;GNS_WNG_PRG;L. Utoh II;GUA V;487128;9094871;146;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Ngabean;;;;;;;
+3312020003;GNS_WNG_PRG;L. Guntur;GUA V;487372;9094527;152;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Guntur;;;;;;;
+3312020003;GNS_WNG_PRG;L. Utoh I;GUA V;487009;9094987;152;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Ngabean;;;;;;;
+3312020003;GNS_WNG_PRG;L. Jomblang;GUA V;487555;9093709;138;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Petir;;;;;;;
+3312020003;GNS_WNG_PRG;L. Petir;GUA V;487731;9093617;118;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Petir;;;;;;;
+3312020003;GNS_WNG_PRG;L. Plawon II;GUA V;488316;9096122;92;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Plawon;;;;;;;
+3312020003;GNS_WNG_PRG;L. Hambusan;GUA V;488035;9092505;26;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Ngambusan;;;;;;;
+3312020003;GNS_WNG_PRG;L. Gundang Kutil;GUA V;488310;9093959;127;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Petir;;;;;;;
+3312020003;GNS_WNG_PRG;L. Gondang;GUA V;489558;9093491;93;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Duren;;;;;;;
+3312020003;GNS_WNG_PRG;L. Kajor;GUA V;488270;9094520;152;Jawa Tengah;Wonogiri;Paranggupito;Gunturharjo;Guntur;;;;;;;
+3312020004;GNS_WNG_PRG;L. Wora. wari;GUA V;488890;9097574;;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Pucung;;Pusat Depresi;Jalan Setapak;;;;
+3312020004;GNS_WNG_PRG;L. Mlati;GUA V;488207;9097818;281;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Pucung;;;Jalan Setapak;;;;
+3312020004;GNS_WNG_PRG;L. Sawit;GUA V;488676;9097724;265;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Pucung;;;Jalan Setapak;;;;
+3312020004;GNS_WNG_PRG;L. Precet;GUA V;487898;9099020;;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Ngejring;;Lereng Depresi;;;;;
+3312020004;GNS_WNG_PRG;L. ngejring;GUA V;487653;9098620;275;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Ngejring;;;;;;;
+3312020004;GNS_WNG_PRG;L. Jomblang;GUA V;487650;9098824;279;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Ngejring;;;;;;;
+3312020004;GNS_WNG_PRG;L. Blimbing;GUA V;487467;9097736;;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Blimbing;;Pusat Depresi;;;;;
+3312020004;GNS_WNG_PRG;L. Sentor;GUA V;485524;9099308;;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Kancu;;Pusat Depresi;;;;;
+3312020004;GNS_WNG_PRG;L. TegalrRorubuh;GUA V;486324;9099744;;Jawa Tengah;Wonogiri;Paranggupito;Gendayakan;Sidoasri;;Lereng Depresi;;walet;;;
+3312020005;GNS_WNG_PRG;L. Ngejring;GUA V;486661;9096953;258;Jawa Tengah;Wonogiri;Paranggupito;Sambiharjo;Ngejring;;Lereng Depresi;Jalan Setapak;;;;Sampah Banyak
+3312020005;GNS_WNG_PRG;L. Kajor;GUA V;485199;9096606;238;Jawa Tengah;Wonogiri;Paranggupito;Sambiharjo;Kajor;;Pusat Depresi;Jalan Setapak;Walet dan Sriti;;;ada air dalam 100
+3312020005;GNS_WNG_PRG;L. Kayuares;GUA V;486252;9097596;;Jawa Tengah;Wonogiri;Paranggupito;Sambiharjo;Pakis;;Lereng Depresi;;;;;Walet dan Sriti
+3312020005;GNS_WNG_PRG;L. Borampo;GUA V;486637;9098374;;Jawa Tengah;Wonogiri;Paranggupito;Sambiharjo;Joho;;Pusat Depresi;;;;;-
+3312020005;GNS_WNG_PRG;L. Bledak;GUA V;486291;9098204;;Jawa Tengah;Wonogiri;Paranggupito;Sambiharjo;Joho;;Pusat Depresi;;;;;-
+3312020005;GNS_WNG_PRG;L. Jerukwangi;GUA V;484711;9098654;;Jawa Tengah;Wonogiri;Paranggupito;Sambiharjo;Jerukwangi;;;;;;;Banyak Pecahan Kaca
+3312020005;GNS_WNG_PRG;L. NN;GUA V;483344;9098571;293;Jawa Tengah;Wonogiri;Paranggupito;Ketos;Blimbing;;Lereng Depresi;;;;;
+3312020005;GNS_WNG_PRG;G. Cubik;GUA V;483516;9098184;303;Jawa Tengah;Wonogiri;Paranggupito;Ketos;Blimbing;;Lereng Depresi;;;;;
+3312020005;GNS_WNG_PRG;L. Ngeledok;GUA V;483439;9099199;282;Jawa Tengah;Wonogiri;Paranggupito;Ketos;Karang Ged;;Lereng Depresi;;;;;
+3312020006;GNS_WNG_PRG;L. Ngringin;GUA V;483098;9097191;225;Jawa Tengah;Wonogiri;Paranggupito;Ketos;Ketos;;;;;;;
+3312020006;GNS_WNG_PRG;L. Sruput;GUA V;483063;9097276;230;Jawa Tengah;Wonogiri;Paranggupito;Ketos;Ketos;;;;;;;
+3312020007;GNS_WNG_PRG;L. Kumoloretno;GUA V;482104;9099585;223;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Tlogorejo;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;L. Nglempir;GUA V;481396;9098783;193;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Lumujing;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;L. Songlurung;GUA V;480469;9096316;135;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Jamburejo;;Lereng Depresi;;;;;
+3312020007;GNS_WNG_PRG;L. Jomblang Tritis;GUA V;480680;9097816;145;Jawa Tengah;Wonogiri;Paranggupito;Song. Bledeg;Ngandong;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Nondo;GUA V;487512;9099208;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Glagahombo;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Nondo II;GUA V;487451;9099414;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Glagahombo;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Johunut;GUA V;484526;9101468;346;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Johunut;;Lereng Depresi;Jalan Setapak;;;;
+3312020008;GNS_WNG_PRG;L. NN;GUA V;483811;9100669;272;Jawa Tengah;Wonogiri;Paranggupito;Johunut;KLampok;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Ploso;GUA V;484050;9100897;273;Jawa Tengah;Wonogiri;Paranggupito;Johunut;KLampok;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Ngelo 1;GUA V;483045;9100564;177;Jawa Tengah;Wonogiri;Paranggupito;Johunut;KLampok;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Kelor;GUA V;486403;9101040;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Kembangampel;;;;;;;
+3312020008;GNS_WNG_PRG;L. NN;GUA V;483510;9101042;243;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Kenteng;;Pusat Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Mloko;GUA V;484529;9101460;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Mloko;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Ngelo 2;GUA V;483112;9100450;245;Jawa Tengah;Wonogiri;Paranggupito;Johunut;nagan;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. NN;GUA V;482457;9100170;240;Jawa Tengah;Wonogiri;Paranggupito;Johunut;nagan;;Lereng Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Sempu;GUA V;485687;9100058;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Pakel;;Lereng Depresi;-;;;;
+3312020008;GNS_WNG_PRG;L. Celengmati;GUA V;485102;9100330;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Pakel;;Pusat Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Petengan;GUA V;485422;9099686;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Pakel;;Lereng Depresi;;;;;Sumuran Buntu
+3312020008;GNS_WNG_PRG;L. GunungJaten;GUA V;485372;9099878;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Pakel;;Lereng Depresi;;;;;-
+3312020008;GNS_WNG_PRG;L. Prengguk;GUA V;484936;9100798;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Prengguk;;Pusat Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Mujing;GUA V;484154;9100058;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Pule;;Pusat Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Bendong;GUA V;484517;9099872;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Pule;;Pusat Depresi;;;;;
+3312020008;GNS_WNG_PRG;L. Gunungcawik;GUA V;486347;9100038;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;Sumur;;Lereng Depresi;;;;;Sarang Walet
+3312020008;GNS_WNG_PRG;L. Tlogokajang;GUA V;486789;9100940;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;TlogoKajang;;Pusat Depresi;;;;;Tempat Pembuangan
+3312020008;GNS_WNG_PRG;L. Tlogokajang 2;GUA V;487112;9100676;;Jawa Tengah;Wonogiri;Paranggupito;Johunut;TlogoKajang;;Pusat Depresi;

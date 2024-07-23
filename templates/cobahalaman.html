@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Peta Leaflet2</title>
+
+    <!-- Mengakses kode LeafletJS menggunakan CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+
+    <!-- Memanggil Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <script src="./bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./Leaflet.GraphicScale.min.css" />
+
+    <script src="./Leaflet.GraphicScale.min.js"></script>
+
+    <style>
+      #map {
+        height: calc(100vh - 60px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Menambahkan komponen Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-success my-2 my-sm-0" onclick="cari()">Lokasi saya</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Memanggil komponen map -->
+    <div id="map"></div>
+
+    <!-- Memanggil JavaScript Jogja GeoJSON -->
+    <script src="jogja/Jogja.js"></script>
+    <script src="jogja/K2SB13BUC2SOD01.js"></script>
+
+    <script>
+             var map = L.map("map",{
+                 center: [-8.79558, 110.36949],
+                 zoom: 12
+             });
+             */
+
+             // Pengaturan pusat peta yang baru, hanya berbeda di Zoom
+             var map = L.map('map',{
+             center: [1.1423856628017215, 127.69657065249433],
+             zoom: 15
+             });
+
+             // Membuat Basemap via OSM
+             L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+
+             // Mendefinisikan TileLayer yang akan ditampilkan ke dalam peta
+             var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+                 subdomains: 'abcd',
+                 maxZoom: 19
+             }).addTo(map);
+
+             var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                 attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+             });
+
+
+          var carto = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}{r}.png', {
+                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+                 subdomains: 'abcd',
+                 maxZoom: 19
+             });
+
+             // Membuat var baseMaps untuk menyediakan opsi pilihan basemap
+             var baseMaps = {
+             "OSM": osm,
+             "Citra Satelit": esri,
+             "Peta Carto": carto
+             };
+
+             // Menambahkan marker dan popup
+             /* Titik Geodesi dimasukkan ke dalam layer Jogja
+             var marker = L.marker ([-7.7639847, 110.3704093]).bindPopup("Teknik Geodesi UGM").addTo(map);
+             */
+
+             // Menampilkan opsi pilihan layer
+             L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+             // Memanggil Geocoder
+             L.Control.geocoder().addTo(map);
+
+          // Memanggil L.easyPrint sehingga pengguna bisa mencetak peta yang ada
+             L.easyPrint({
+      	    title: 'My awesome print button',
+      	    position: 'topright',
+      	    sizeModes: ['A4Portrait', 'A4Landscape']
+          }).addTo(map);
+
+             // Menampilkan graphicScale
+          var graphicScale = L.control.graphicScale({
+      	    fill: "fill",
+      	    doubleLine: "true",
+      	    showSubunits: "true"
+          }).addTo(map);
+
+
+      // ------------------------------------------------------------------
+      // ini latian hari 2 leaflet
+
+          function cari(){
+                 alert('tombol ditekan!');
+                 map.locate({setView: true, maxZoom: 16});
+
+                 function onLocationFound(e) {
+                     var radius = e.accuracy / 2;
+
+                     L.marker(e.latlng).addTo(map)
+             	        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+                    L.circle(e.latlng, radius).addTo(map);
+                 }
+                 map.on('locationfound', onLocationFound);
+             }
+
+
+             L.geoJSON(jogjageojson).addTo(map);
+    </script>
+  </body>
+</html>

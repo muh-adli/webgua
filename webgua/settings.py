@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
+    'API'
 ]
 
 MIDDLEWARE = [
@@ -74,9 +76,14 @@ WSGI_APPLICATION = 'webgua.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
+    
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'webgisgoa',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '1234',
     }
 }
 
@@ -121,3 +128,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+OSGEO4W_ROOT=r'C:\Program Files\QGIS 3.20.3' # OSGEO4W Path
+GDAL_LIBRARY_PATH = r'C:\Program Files\QGIS 3.20.3\bin\gdal302' # GDAL Lib Path
+GDAL_DATA = r'C:\Program Files\QGIS 3.20.3\share\gdal' # GDAL DATA Path
+PROJ_LIB = r'C:\Program Files\QGIS 3.20.3\share\proj' # Proj Path
