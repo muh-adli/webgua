@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "django.contrib.gis",
     'django.contrib.humanize',
+    'django_tables2',
     
     # Library
     
@@ -89,9 +90,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'webgisgoa',
         'USER': 'postgres',
-        'PASSWORD': '12345',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
-        'PORT': 5432
+        'PORT': 1234
     },
     # 'neon': {
     #     'ENGINE': 'django.db.backends.postgresql',

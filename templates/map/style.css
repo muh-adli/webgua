@@ -1,0 +1,34 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.thead-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.th-class {
+  padding: 10px;
+}
+
+.tr-class {
+  height: 50px;
+}
+
+.td-class {
+  padding: 10px;
+}

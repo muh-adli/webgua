@@ -1,8 +1,11 @@
 # Django core
 from django.shortcuts import render
+from django.views.generic import ListView
+from .models import tabelGoa
 
-# Django models
+# Django models and table
 from .models import DataGoaWgs84
+from .tables import tableDataGoa
 
 # Libraries
 import json
@@ -75,4 +78,54 @@ def guamap(request):
         'longitudes': longitudes,
     }
     
-    return render(request, "map/goa copy.html", context)
+    return render(request, "map/goa copy.html", {'title': title,'latitudes': latitudes,'longitudes': longitudes,})
+
+def tabel(request):
+    qs = DataGoaWgs84.objects.all()[:10]
+    
+    # Prepare arrays for latitudes and longitudes
+    nama_objek = []
+    latitude = []
+    longitude = []
+    print(qs)
+    for goa in qs:
+        nama_objek.append(goa.nama_objek)
+        latitude.append(goa.latitude)
+        longitude.append(goa.longitude)
+    
+    listobj = {nama: {'latitude': latitude, 'longitude': longitude} 
+           for nama, latitude, longitude in zip(nama_objek, latitude, longitude)}
+
+    table = tableDataGoa(qs)
+
+    context= {
+        'data' : qs,
+        'table' : table
+    }
+    print (listobj)
+    return render (request, "map/tabel.html", context)
+        
+def tabelEdit(request, objek):
+    qs = DataGoaWgs84.objects.all().filter(nama_objek=objek)
+    
+    # Prepare arrays for latitudes and longitudes
+    nama_objek = []
+    latitude = []
+    longitude = []
+    print(qs)
+    for goa in qs:
+        nama_objek.append(goa.nama_objek)
+        latitude.append(goa.latitude)
+        longitude.append(goa.longitude)
+    
+    listobj = {nama: {'latitude': latitude, 'longitude': longitude} 
+           for nama, latitude, longitude in zip(nama_objek, latitude, longitude)}
+
+    table = tableDataGoa(qs)
+
+    context= {
+        'data' : qs,
+        'table' : table
+    }
+    print (listobj)
+    return render (request, "map/tabel.html", context)

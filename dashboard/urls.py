@@ -22,4 +22,5 @@ from .views import *
 urlpatterns = [
     path('', index, name="index"),
     path('goa', guamap, name="guamap"),
+    path('tabel', tabel, name="tabel")
 ]
