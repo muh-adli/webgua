@@ -20,7 +20,7 @@ from django.urls import path
 from .views import index, homepage, goa
 
 urlpatterns = [
-    path('index/', index, name="index"),
+    # path('index/', index, name="index"),
     path('homepage/', homepage, name="homepage"),
     path('goa/', goa, name="goa"),
 ]
