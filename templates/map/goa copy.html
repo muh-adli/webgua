@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    #map {
+        height: 94vh;
+        widht: 100%%
+    }
+</style>
+{% comment %} Leaflet CDN {% endcomment %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+{% comment %} Leaflet cluster CDN {% endcomment %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+{% endblock %}
+
+{% block content %}
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'guamap' %}">Goa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coordinate Converter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <content>
+        <div id="map"></div>
+    </content>
+{% endblock %}
+
+{% block script %}
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([-7.9132797,110.9771711], 11);
+
+        // Add a tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Latitude and Longitude arrays from Django context
+        const latitudes = {{ latitudes|safe }};
+        const longitudes = {{ longitudes|safe }};
+
+        // Combine latitude and longitude arrays into a single array of markers
+        const markers = latitudes.map((lat, index) => [lat, longitudes[index]]);
+
+        // Create a marker cluster group
+        const markersCluster = L.markerClusterGroup();
+
+        // Add markers to the cluster group
+        markers.forEach(([lat, lon]) => {
+            L.circle([lat, lon]).addTo(markersCluster);
+        });
+
+        // Add the marker cluster group to the map
+        map.addLayer(markersCluster);
+    </script>
+{% endblock %}

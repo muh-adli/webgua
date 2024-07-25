@@ -85,15 +85,23 @@ WSGI_APPLICATION = 'webgua.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': getenv('PGDATABASE'),
-        'USER': getenv('PGUSER'),
-        'PASSWORD': getenv('PGPASSWORD'),
-        'HOST': getenv('PGHOST'),
-        'PORT': getenv('PGPORT', 5432),
-        'OPTIONS': {
-            'sslmode': 'require', # Change to require if SSL enable
-        },
-    }
+        'NAME': 'webgisgoa',
+        'USER': 'postgres',
+        'PASSWORD': '12345',
+        'HOST': 'localhost',
+        'PORT': 5432
+    },
+    # 'neon': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': getenv('PGDATABASE_neon'),
+    #     'USER': getenv('PGUSER_neon'),
+    #     'PASSWORD': getenv('PGPASSWORD_neon'),
+    #     'HOST': getenv('PGHOST_neon'),
+    #     'PORT': getenv('PGPORT_neon', 5432),
+    #     'OPTIONS': {
+    #         'sslmode': 'require', # Change to require if SSL enable
+    #     },
+    # }
 }
 
 # Password validation
