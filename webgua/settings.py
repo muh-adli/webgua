@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
+import os
 from os import getenv
 from dotenv import load_dotenv
 from pathlib import Path
@@ -18,6 +19,9 @@ load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+if os.name == 'posix':
+    GEOS_LIBRARY_PATH = '/nix/store/fgcxrixy3rfgisx5qa28p6jky9rfg7nn-geos-3.11.2/lib/libgeos_c.so'
+    GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -86,7 +90,7 @@ WSGI_APPLICATION = 'webgua.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'local': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'webgisgoa',
         'USER': 'postgres',
@@ -94,17 +98,17 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': 1234
     },
-    # 'neon': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': getenv('PGDATABASE_neon'),
-    #     'USER': getenv('PGUSER_neon'),
-    #     'PASSWORD': getenv('PGPASSWORD_neon'),
-    #     'HOST': getenv('PGHOST_neon'),
-    #     'PORT': getenv('PGPORT_neon', 5432),
-    #     'OPTIONS': {
-    #         'sslmode': 'require', # Change to require if SSL enable
-    #     },
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': getenv('PGDATABASE_neon'),
+        'USER': getenv('PGUSER_neon'),
+        'PASSWORD': getenv('PGPASSWORD_neon'),
+        'HOST': getenv('PGHOST_neon'),
+        'PORT': getenv('PGPORT_neon', 5432),
+        'OPTIONS': {
+            'sslmode': 'require', # Change to require if SSL enable
+        },
+    }
 }
 
 # Password validation
@@ -148,8 +152,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-OSGEO4W_ROOT=r'C:\OSGeo4W' # OSGEO4W Path
-GDAL_DATA = r'C:\OSGeo4W\apps\gdal' # GDAL DATA Path
-PROJ_LIB = r'%OSGEO4W_ROOT%\share\proj' # Proj Path
-GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll'
-GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
+# OSGEO4W_ROOT=r'C:\OSGeo4W' # OSGEO4W Path
+# GDAL_DATA = r'C:\OSGeo4W\apps\gdal' # GDAL DATA Path
+# PROJ_LIB = r'%OSGEO4W_ROOT%\share\proj' # Proj Path
+# GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll'
+# GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'

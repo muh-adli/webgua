@@ -1,7 +1,6 @@
 # Django core
 from django.shortcuts import render
 from django.views.generic import ListView
-from .models import tabelGoa
 
 # Django models and table
 from .models import DataGoaWgs84
