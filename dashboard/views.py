@@ -17,7 +17,14 @@ def index(request):
         'title' : title,
     }
     
-    return render(request, "index copy.html", context)
+    return render(request, "home.html", context)
+
+def menuWebgis(request):
+    title = "menuweb"
+    context = {
+        'title' : title,
+    }
+    return render(request, "webgis.html", context)
 
 def guamap(request):
     title = "Map Goa"
