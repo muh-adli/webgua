@@ -1,20 +1,23 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(242, 236, 191, 0.5);
+    background-color:rgba(255, 255, 255, 0.5);
     padding: 10px 20px;
+    
 }
 
 .navbar-brand a {
-    color: #2e2e2e;
+    color: #eb0a0a;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3.5em;
+    font-weight: bold;
 }
 
 .navbar-links {
@@ -39,8 +42,96 @@ body {
     background-color: #cf0000;
 }
 
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: cover;
+    padding: px;
+    background-color: #fff;
+    box-shadow: 1px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    height: 800px;
+    padding-bottom: 100px;
+
+}
+
+.wel {
+    max-width: cover;
+    text-align: left;
+
+    
+}
+
+.hero-content {
+    max-width: cover;
+    margin: 100px;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn.primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: ;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.2);
+    
+
+    
+    
+}
+
+.btn.primary:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+/* .btn.secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.2);
+} */
+
+.hero-image img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
 .image-background {
-    background-image: url('gambar/gambar.jpg'); /* Path ke file gambar */
+    background-image: url('gambar/gambar3.png'); /* Path ke file gambar */
     background-size: cover; /* Menutup seluruh area elemen */
     background-position: center; /* Memposisikan gambar di tengah */
     background-repeat: no-repeat; /* Mencegah pengulangan gambar */
@@ -94,7 +185,7 @@ body {
 }
 
 .slide_2 {
-    background-color: rgb(196, 196, 196); /* Path ke file gambar */
+    background-color: rgb(255, 255, 255); /* Path ke file gambar */
     background-size: cover; /* Menutup seluruh area elemen */
     background-position: center; /* Memposisikan gambar di tengah */
     background-repeat: no-repeat; /* Mencegah pengulangan gambar */
@@ -126,7 +217,7 @@ body {
 
 .flex-item {
     /* gambar kanan*/
-    background-image: url('gambar/tengah.jpg');
+    background-image: url('gambar/JEMA VIVI 018-11.jpg');
     background-size: cover;
     background-position: ;
     color: rgb(33, 247, 0);
@@ -172,7 +263,7 @@ body {
     height: auto; /* Mengatur tinggi gambar secara otomatis sesuai dengan proporsi */
     border: 2px solid #ddd; /* Menambahkan border */
     border-radius: 10px; /* Membuat sudut gambar menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
     transition: transform 0.3s; /* Menambsahkan transisi pada transformasi */
     float: center;
     margin: 0px;
@@ -187,7 +278,7 @@ text-align: center;
 
 }
 .background {
-    background-image: color rgb(245, 205, 59); /* Ganti dengan URL gambar latar belakang Anda */
+    background-image: color rgb(225, 166, 55); /* Ganti dengan URL gambar latar belakang Anda */
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -198,7 +289,11 @@ text-align: center;
 }
 
 .overlay {
-    background-color: rgba(242, 236, 191, 0.5); /* Efek overlay gelap */
+    background-color: #edebeb; /* Efek overlay gelap */
+    border-top-left-radius: 40px; /* Membuat sudut gambar menjadi melengkung */
+    border-top-right-radius: 40px; /* Membuat sudut gambar menjadi melengkung */
+    box-shadow: 0 -6px 2px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+    
     width: 100%;
     height: 400px;
     display: flex;
@@ -208,7 +303,7 @@ text-align: center;
 
 .container {
     text-align: center;
-    color: rgb(108, 108, 108);
+    color: rgb(18, 4, 4);
 }
 
 .icon img {
@@ -225,6 +320,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .subscribe-form input {
@@ -270,7 +366,6 @@ h1 {
     margin-top: 200px;
     margin-bottom: 200px;
     
-    
 }
 
 .info-box {
@@ -309,18 +404,17 @@ h1 {
     text-decoration: none;
 }
 
-}
-
 .content {
     flex: 1; /* Membuat konten mengisi ruang yang tersisa */
     padding: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ececec;
+    color: #000000;
     text-align: center;
     padding: 20px 0;
+    unicode-bidi: isolate;
 }
 
 .footer-container {
@@ -355,7 +449,7 @@ footer {
 }
 
 .footer-section ul li a {
-    color: #fff;
+    color: #0e0e0e;
     text-decoration: none;
 }
 
@@ -364,11 +458,35 @@ footer {
 }
 
 .footer-bottom {
-    background-color: #222;
+    background-color: #dbdbdb;
     padding: 10px;
     font-size: 14px;
+    
 }
 
 .footer-bottom p {
     margin: 0;
 }
+.PageKontenKomunitas {
+    background-color: rgb(198, 198, 198);
+    height: 200px;
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    padding: 15px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    margin-right: -5px; /* Agar border input dan button menyatu */
+    margin-left: 230px;
+    padding: 15px 350px;
+
+}
+
+/* .isipagekomunitas {
+
+font-size: 17px;
+color: red;
+
+} */
+
+
