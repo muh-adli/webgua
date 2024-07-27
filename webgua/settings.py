@@ -16,12 +16,17 @@ from pathlib import Path
 
 load_dotenv()
 
+if os.name == 'nt':
+    VENV_BASE = os.environ['VIRTUAL_ENV']
+    os.environ['PATH'] = os.path.join(VENV_BASE, 'Lib\\site-packages\\osgeo') + ';' + os.environ['PATH']
+    os.environ['PROJ_LIB'] = os.path.join(VENV_BASE, 'Lib\\site-packages\\osgeo\\data\\proj') + ';' + os.environ['PATH']
+elif os.name == 'posix':
+    GEOS_LIBRARY_PATH = '/nix/store/fgcxrixy3rfgisx5qa28p6jky9rfg7nn-geos-3.11.2/lib/libgeos_c.so'
+    GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-if os.name == 'posix':
-    GEOS_LIBRARY_PATH = '/nix/store/fgcxrixy3rfgisx5qa28p6jky9rfg7nn-geos-3.11.2/lib/libgeos_c.so'
-    GDAL_LIBRARY_PATH = '/usr/lib/libgdal.so'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -32,7 +37,7 @@ SECRET_KEY = 'django-insecure-9v_dbw41%u$a_$r$m@1=i&s02zticl-uk31h9pq%mekoa38t83
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app", ".now.sh"]
 
 
 # Application definition
@@ -46,19 +51,24 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "django.contrib.gis",
     'django.contrib.humanize',
-    'django_tables2',
     
     # Library
+    'django_tables2',
+    "corsheaders",
+    'rest_framework',
+
+    
     
     # Django App
-    'API',
     'dashboard',
+    'API',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -92,7 +102,7 @@ WSGI_APPLICATION = 'webgua.wsgi.application'
 
 DATABASES = {
     'local': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'webgisgoa',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
@@ -100,7 +110,8 @@ DATABASES = {
         'PORT': 1234
     },
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        # 'ENGINE': 'django.db.backends.postgresql',
         'NAME': getenv('PGDATABASE_neon'),
         'USER': getenv('PGUSER_neon'),
         'PASSWORD': getenv('PGPASSWORD_neon'),
@@ -136,7 +147,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Jakarta'
 
 USE_I18N = True
 
@@ -146,8 +157,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = "static/"
+# The absolute path to the directory where collectstatic will collect static files for deployment.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# Additional locations the staticfiles app will traverse
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 

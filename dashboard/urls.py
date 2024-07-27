@@ -21,6 +21,7 @@ from .views import *
 
 urlpatterns = [
     path('', index, name="index"),
-    path('goa', guamap, name="guamap"),
-    path('tabel', tabel, name="tabel")
+    path('gua', guamap, name="guamap"),
+    path('tabel', tabel, name="tabel"),
+    path('coordinate_converter/', coorConvert, name="coorConvert")
 ]

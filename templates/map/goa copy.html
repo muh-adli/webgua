@@ -4,7 +4,7 @@
 <style>
     #map {
         height: 94vh;
-        widht: 100%%
+        widht: 100%;
     }
 </style>
 {% comment %} Leaflet CDN {% endcomment %}
@@ -17,27 +17,6 @@
 {% endblock %}
 
 {% block content %}
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'index' %}">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="{% url 'guamap' %}">Goa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Coordinate Converter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <content>
         <div id="map"></div>
     </content>
@@ -55,7 +34,7 @@
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
-
+{% comment %} 
         // Latitude and Longitude arrays from Django context
         const latitudes = {{ latitudes|safe }};
         const longitudes = {{ longitudes|safe }};
@@ -72,6 +51,6 @@
         });
 
         // Add the marker cluster group to the map
-        map.addLayer(markersCluster);
+        map.addLayer(markersCluster); {% endcomment %}
     </script>
 {% endblock %}

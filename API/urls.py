@@ -17,10 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from .views import index, homepage, goa
+from .views import *
 
 urlpatterns = [
-    # path('index/', index, name="index"),
-    path('homepage/', homepage, name="homepage"),
-    path('goa/', goa, name="goa"),
+    # path('homepage/', homepage, name="homepage"),
 ]

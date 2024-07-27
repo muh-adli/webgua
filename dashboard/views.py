@@ -17,9 +17,16 @@ def index(request):
         'title' : title,
     }
     
-    return render(request, "home.html", context)
+    return render(request, "index.html", context)
 
 def menuWebgis(request):
+    title = "menuweb"
+    context = {
+        'title' : title,
+    }
+    return render(request, "webgis.html", context)
+
+def coorConvert(request):
     title = "menuweb"
     context = {
         'title' : title,
@@ -29,15 +36,15 @@ def menuWebgis(request):
 def guamap(request):
     title = "Map Goa"
     
-    qs = DataGoaWgs84.objects.all()
+    # qs = DataGoaWgs84.objects.all()
     
-    # Prepare arrays for latitudes and longitudes
-    latitudes = []
-    longitudes = []
+    # # Prepare arrays for latitudes and longitudes
+    # latitudes = []
+    # longitudes = []
 
-    for goa in qs:
-        latitudes.append(goa.latitude)
-        longitudes.append(goa.longitude)
+    # for goa in qs:
+    #     latitudes.append(goa.latitude)
+    #     longitudes.append(goa.longitude)
         
     # features = []
 
@@ -80,11 +87,11 @@ def guamap(request):
     context = {
         'title': title,
         # 'datagoa': json.dumps(geojson),  # Convert GeoJSON to a JSON string
-        'latitudes': latitudes,
-        'longitudes': longitudes,
+        # 'latitudes': latitudes,
+        # 'longitudes': longitudes,
     }
     
-    return render(request, "map/goa copy.html", {'title': title,'latitudes': latitudes,'longitudes': longitudes,})
+    return render(request, "map/goa copy.html", context)
 
 def tabel(request):
     qs = DataGoaWgs84.objects.all()[:10]
