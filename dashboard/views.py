@@ -19,19 +19,19 @@ def index(request):
     
     return render(request, "index.html", context)
 
-def menuWebgis(request):
-    title = "menuweb"
+def homepage(request):
+    title = "Home"
     context = {
         'title' : title,
     }
-    return render(request, "webgis.html", context)
+    return render(request, "homepage.html", context)
 
 def coorConvert(request):
-    title = "menuweb"
+    title = "Coordinate Converter"
     context = {
         'title' : title,
     }
-    return render(request, "webgis.html", context)
+    return render(request, "coorconv/coorconv.html", context)
 
 def guamap(request):
     title = "Map Goa"

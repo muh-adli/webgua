@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<style>
+    #map {
+        height: 94vh;
+        widht: 100%;
+    }
+</style>
+<link rel="stylesheet" href="{% static "css/kitab.css" %}">
+{% endblock %}
+
+{% block content %}
+<h1>MENU FITUR</h1>
+<div class="containerr">
+    <a href="{% url 'guamap' %}">
+        <div class="info-box">
+            <img src="{% static "image/giribahama.jpg" %}" height="300px">
+            <h1 >WebGIS Gua</h1>
+            <hr>
+            <p>
+                Deskripsi webgis gua
+            </p>
+        </div>
+    </a>
+    <a href="{%url 'coorConvert'%}">
+        <div class="info-box">
+            <img src="{% static "image/location.png" %}" height="300px">
+            <h1>Coordinate Converter</h1>
+            <hr>
+            <p>
+                App to convert coordinate single or batch
+            </p>
+        </div>
+    </a>
+    <a href="#">
+        <div class="info-box">
+            <img src="{% static "image/forum.png" %}" height="300px">
+            <h1>GIS Database</h1>
+            <hr>
+            <p>
+                Forum to share GIS Data
+            </p>
+        </div>
+    </a>
+</div>
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}
