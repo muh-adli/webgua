@@ -84,6 +84,8 @@ body {
 .hero-buttons {
     display: flex;
     gap: 10px;
+    margin-left: 10px;
+    margin-top: -15px;
 }
 
 .btn {
@@ -97,7 +99,7 @@ body {
 .btn.primary {
     background-color: #007bff;
     color: #fff;
-    padding: 15px 30px;
+    padding: 15px 20px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -107,10 +109,9 @@ body {
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s, transform 0.3s;
-    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.2);
-    
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.2); 
 
-    
+   
     
 }
 
@@ -467,26 +468,512 @@ footer {
 .footer-bottom p {
     margin: 0;
 }
-.PageKontenKomunitas {
-    background-color: rgb(198, 198, 198);
-    height: 200px;
-    background-position: center; /* Memposisikan gambar di tengah */
-    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
-    padding: 15px;
-    width: 250px;
-    border: none;
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin-right: -5px; /* Agar border input dan button menyatu */
-    margin-left: 230px;
-    padding: 15px 350px;
+}
+
+.header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.post-content h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.post-details {
+    color: #666;
+    font-size: 14px;
+}
+
+.post-stats {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.post-image img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.containerpage {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+header .date, header .author {
+    font-size: 14px;
+    color: #666;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content p {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    text-align: bold;
+    color: #666;
+}
+
+.reputation {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding-left: 10px;
+    
+    
+}
+
+
+.footerpage {
+    background-color: #def1ff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    unicode-bidi: isolate;
+    border-radius: 10px;
+    padding-top: 50px;
+    
+    
+    
+    
+}
+.footerpagebawahdikit {
+    background-color: #ececec;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    unicode-bidi: isolate;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.back-button img, .blogger-icon img {
+    height: 30px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.title-input {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.toolbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.toolbar button img {
+    height: 20px;
+}
+
+.editor {
+    padding: 20px;
+}
+
+.editor textarea {
+    width: calc(100% - 40px);
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.settings {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.settings-section {
+    margin-bottom: 20px;
+}
+
+.settings-section h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.settings-section label, .settings-section input {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.publish-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+}
+
+.publish-section button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.preview-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.publish-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.space {
+
+
+    background-color: #ffffff;
+    height: 100px;
+    
+
+    
+}
+
+
+.containerlogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: cover;
+    padding: 100px;
+    background-color: #ececec;
+    box-shadow: 1px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    height: 800px;
+    padding-bottom: 100px;
+    
+    
+  
+    
+}
+.form-section, .image-section {
+    padding: 20px;
+    flex: 1;
+    height: 800px;
+    
+    
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+.form-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
 
 }
 
-/* .isipagekomunitas {
+.social-login {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
 
-font-size: 17px;
-color: red;
+.social-button {
+    border: none;
+    padding: 10px 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    
+}
 
-} */
+.apple {
+    background-color: #000;
+    color: #fff;
+}
 
+.google {
+    background-color: #fff;
+    color: #4285F4;
+   
+    
+}
 
+.facebook {
+    background-color: #4267B2;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.password-field {
+    position: relative;
+    
+}
+
+.password-field button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button[type="submit"] {
+    background-color: #1A5F38;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+form p {
+    text-align: center;
+}
+
+form a {
+    color: #1A5F38;
+    text-decoration: none;
+}
+
+.image-section {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-labels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.label {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.comment-section {
+    width: 95%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comment-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.comment-form button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #1A5F38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comment {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.username {
+    font-weight: bold;
+    color: #1A5F38;
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.comment-body {
+    font-size: 1em;
+    color: #333;
+}
