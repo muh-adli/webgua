@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map with GeoJSON, Custom Popups, Colored Points, Clustering, and Scale Control</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Leaflet.markercluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #map {
+            height: 100vh; /* Fullscreen height */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Include the leaflet-ajax plugin to load GeoJSON -->
+    <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+    <!-- Leaflet.markercluster JavaScript -->
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+    <script>
+        // Function to determine the color based on a property
+        function getColor(JENIS) {
+            switch (JENIS) {
+                case 'gua V': return '#2C3E50';
+                case 'GOA V': return '#2C3E50';
+                case 'GOA H': return '#F1C40F';
+                case 'Telaga': return '#E74C3C';
+                case 'Ponor': return '#E67E22';
+                case 'Tebing': return '#1ABC9C';
+                case 'Collaps': return '#9B59B6';
+                case 'Sumur': return '#2ECC71';
+                case 'mataair': return '#34495E';
+                case 'gua H': return '#F1C40F';
+                case 'resurgen': return '#7F8C8D';                
+                default: return 'black';
+            }
+        }
+
+        // Function to create custom markers
+        function pointToLayer(feature, latlng) {
+            return L.circleMarker(latlng, {
+                radius: 8,
+                fillColor: getColor(feature.properties.JENIS),
+                color: "#000",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.8
+            });
+        }
+
+        // Initialize the map and set its view
+        var map = L.map('map').setView([-4.3796958349529405, 120.00423277007731], 5);
+
+        // Define tile layers
+        var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+
+        var openTopoMapLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://opentopomap.org/">OpenTopoMap</a> (CC-BY-SA)'
+        });
+
+        // Add OpenStreetMap layer by default
+        openStreetMapLayer.addTo(map);
+
+        // Add layer control
+        var baseMaps = {
+            "OpenStreetMap": openStreetMapLayer,
+            "OpenTopoMap": openTopoMapLayer
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        // Add scale control to the map
+        L.control.scale({ metric: true }).addTo(map);
+
+        // Create a marker cluster group
+        var markers = L.markerClusterGroup();
+
+        // Load GeoJSON from an external file
+        fetch('Praci_WGS.geojson')
+            .then(response => response.json())
+            .then(data => {
+                // Create GeoJSON layer with custom popups and styles
+                var geoJsonLayer = L.geoJSON(data, {
+                    pointToLayer: pointToLayer,
+                    onEachFeature: function (feature, layer) {
+                        if (feature.properties) {
+                            let popupContent = '<p><strong>Properties:</strong></p><ul>';
+                            const keys = ['NAMA OBJEK', 'JENIS', 'X', 'Y'];
+                            keys.forEach(key => {
+                                if (feature.properties[key]) {
+                                    popupContent += `<li>${key}: ${feature.properties[key]}</li>`;
+                                }
+                            });
+                            popupContent += '</ul>';
+                            layer.bindPopup(popupContent);
+                        }
+                    }
+                });
+
+                // Add the GeoJSON layer to the marker cluster group
+                markers.addLayer(geoJsonLayer);
+                // Add the marker cluster group to the map
+                map.addLayer(markers);
+
+                // Loop through each feature and log the coordinates and properties
+                data.features.forEach(feature => {
+                    if (feature.geometry && feature.geometry.coordinates) {
+                        const coords = feature.geometry.coordinates;
+                        const properties = feature.properties;
+                        console.log('Coordinates:', coords);
+                        console.log('Properties:', properties);
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading GeoJSON:', error));
+    </script>
+</body>
+</html>
