@@ -56,8 +56,6 @@ INSTALLED_APPS = [
     'django_tables2',
     "corsheaders",
     'rest_framework',
-
-    
     
     # Django App
     'dashboard',
