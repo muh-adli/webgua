@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     # Django App
     'dashboard',
     'API',
+    'transport',
 ]
 
 MIDDLEWARE = [
@@ -108,8 +109,8 @@ DATABASES = {
         'PORT': 1234
     },
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': getenv('PGDATABASE_neon'),
         'USER': getenv('PGUSER_neon'),
         'PASSWORD': getenv('PGPASSWORD_neon'),

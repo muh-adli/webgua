@@ -40,7 +40,7 @@
                             <a class="nav-link {% if request.path == '/coordinate_converter/' %}active{% endif %}" href="{% url 'coorConvert' %}">Coordinate Converter</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link {% if request.path == '/transport/' %}active{% endif %}" href="{% url 'transHome' %}">Transportation</a>
                         </li>
                     </ul>
                 </div>
