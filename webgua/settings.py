@@ -101,7 +101,7 @@ WSGI_APPLICATION = 'webgua.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'local': {
+    'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'webgisgoa',
         'USER': 'postgres',
@@ -109,18 +109,18 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': 1234
     },
-    'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        # 'ENGINE': 'django.db.backends.postgresql',
-        'NAME': getenv('PGDATABASE_neon'),
-        'USER': getenv('PGUSER_neon'),
-        'PASSWORD': getenv('PGPASSWORD_neon'),
-        'HOST': getenv('PGHOST_neon'),
-        'PORT': getenv('PGPORT_neon', 5432),
-        'OPTIONS': {
-            'sslmode': 'require', # Change to require if SSL enable
-        },
-    }
+    # 'default': {
+    #     'ENGINE': 'django.contrib.gis.db.backends.postgis',
+    #     # 'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': getenv('PGDATABASE_neon'),
+    #     'USER': getenv('PGUSER_neon'),
+    #     'PASSWORD': getenv('PGPASSWORD_neon'),
+    #     'HOST': getenv('PGHOST_neon'),
+    #     'PORT': getenv('PGPORT_neon', 5432),
+    #     'OPTIONS': {
+    #         'sslmode': 'require', # Change to require if SSL enable
+    #     },
+    
 }
 
 # Password validation
@@ -170,8 +170,8 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# OSGEO4W_ROOT=r'C:\OSGeo4W' # OSGEO4W Path
-# GDAL_DATA = r'C:\OSGeo4W\apps\gdal' # GDAL DATA Path
-# PROJ_LIB = r'%OSGEO4W_ROOT%\share\proj' # Proj Path
-# GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll'
-# GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
+OSGEO4W_ROOT=r'C:\OSGeo4W' # OSGEO4W Path
+GDAL_DATA = r'C:\OSGeo4W\apps\gdal' # GDAL DATA Path
+PROJ_LIB = r'%OSGEO4W_ROOT%\share\proj' # Proj Path
+GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal308.dll'
+GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'

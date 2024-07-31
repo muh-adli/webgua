@@ -5,9 +5,11 @@ from django.views.generic import ListView
 # Django models and table
 from .models import DataGoaWgs84
 from .tables import tableDataGoa
+from .forms import get_crs_list
 
 # Libraries
 import json
+import pyproj
 
 # Create your views here.
 def index(request):
@@ -28,10 +30,62 @@ def homepage(request):
 
 def coorConvert(request):
     title = "Coordinate Converter"
+    CRS_CHOICES = get_crs_list()
+    wgs84 = pyproj.CRS('EPSG:4326')
+    utm = pyproj.CRS('EPSG:32749') 
     context = {
         'title' : title,
+        'crs_choices': CRS_CHOICES,
+        'output_x':'',
+        'output_y' : '',
+        'input_x':'',
+        'input_y':'',
+        'output_lat':'',
+        'output_long' : '',
+        'input_lat':'',
+        'input_long':''
+
     }
+    if request.method == 'POST':
+        form_type = request.POST.get('form_type')
+        if form_type == 'latlong':
+            input_lat = float(request.POST.get('Latitude'))
+            input_long = float(request.POST.get('Longitude'))
+            print("INI INPUTNYA LATLONG")
+            print(input_lat)
+            print(input_long)
+            transformer = pyproj.Transformer.from_crs(wgs84, utm, always_xy=True)
+            x, y = transformer.transform(input_long, input_lat)
+            print(f"UTM Coordinates: {x}, {y}")
+            context['output_x'] = x
+            context['output_y'] = y
+            context['output_lat'] = input_lat
+            context['output_long'] = input_long
+
+
+        elif form_type=="utm":
+            input_x = float(request.POST.get('X'))
+            input_y = float(request.POST.get('Y'))
+            print("INI INPUTNYA LATLONG")
+            transformer = pyproj.Transformer.from_crs(utm,wgs84, always_xy=True)
+            long, lat = transformer.transform(input_x, input_y)
+            print(f"UTM Coordinates: {lat}, {long}")
+            context['output_x'] = input_x
+            context['output_y'] = input_y
+            context['output_lat'] = lat
+            context['output_long'] = long
+
+
+    else:
+        context['crs_choices']: CRS_CHOICES
+    
+    for a, b in context.items():
+        if a == "output_x":
+            print ("cek context")
+            print (b )
+
     return render(request, "coorconv/coorconv.html", context)
+
 
 def guamap(request):
     title = "Map Goa"
