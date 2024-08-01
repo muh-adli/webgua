@@ -6,12 +6,24 @@
 {% block head %}
 <style>
     #map {
-        height: 35vh;
+        height: 30vh;
         widht: 100%;
     }
-    .custom-card-body {
-    height: 50px;
-    overflow-y: auto; /* Adds a scrollbar if the content overflows vertically */
+    .blur:hover {
+        background-color: gray;
+        opacity: 0.5; /* Adjusted opacity to show blurring effect */
+    }
+    .blur:hover::after {
+        content: "Click to see map";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
     }
 </style>
 
@@ -53,9 +65,13 @@
             </div>
             <div class="card-body">
                 {% render_table table %}
+                <a href="{% url 'transData' %}">
+                    Edit /  Data
+                </a>
             </div>
         </div>
     </div>
+    
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <div class="card-header">
@@ -70,11 +86,8 @@
                 minimap
             </div>
             <div class="card-body">
-                <div id="map" class="m-0"></div>
                 <a href="{% url 'transMap' %}">
-                    <div class=" my-1 btn btn-primary">  
-                        See Map
-                    </div>
+                    <div id="map" class="blur"></div>
                 </a>
             </div>
         </div>
@@ -92,12 +105,29 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script>   
-var map = L.map('map').setView([-6.2088, 106.8456], 11);
+        // Latitude and Longitude arrays from Django context
+        const latitudes = {{ latitudes|safe }};
+        const longitudes = {{ longitudes|safe }};
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+        // Create a map
+        var map = L.map('map').setView([-6.2088, 106.8456], 10);
 
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Add circles to the map based on latitudes and longitudes
+        for (let i = 0; i < latitudes.length; i++) {
+            let latitude = latitudes[i];
+            let longitude = longitudes[i];
+
+            L.circle([latitude, longitude], {
+                color: 'red',
+                fillColor: '#f03',
+                fillOpacity: 0.5,
+                radius: 250
+            }).addTo(map);
+        };
 </script>
 
 <script>

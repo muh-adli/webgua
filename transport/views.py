@@ -3,6 +3,7 @@ from django.db.models import Count
 
 from .models import Datatransport
 from .tables import DatatransportTable
+from .forms import transportForm
 
 import plotly.graph_objs as go
 import plotly.io as pio
@@ -15,7 +16,11 @@ def transHome(request):
     # Query data to get counts for each category
     qs = Datatransport.objects.all()
     qs_counts = Datatransport.objects.values('category').annotate(count=Count('id'))
+    qs_latlong = Datatransport.objects.values('longitude','latitude')
     
+    longitudes = [float(coord['longitude']) for coord in qs_latlong]
+    latitudes = [float(coord['latitude']) for coord in qs_latlong]
+
     # Prepare data for Plotly
     category_counts = {}
     for item in qs_counts:
@@ -41,12 +46,14 @@ def transHome(request):
     plot_json = pio.to_json(pie_chart)
 
     # render the table with the queryset
-    table = DatatransportTable(qs[:10])
+    table = DatatransportTable(qs[:5])
      
     context = {
         'title': title,
         'plot_json': plot_json,
         'table': table,
+        'longitudes': longitudes,
+        'latitudes': latitudes,
     }
     return render(request, 'transport/transHome.html', context)
 
@@ -57,3 +64,14 @@ def transMap(request):
         'title': title,
     }
     return render(request, 'transport/transMap.html', context)
+
+def transData(request):
+    title = "Edit Data"
+
+    form = transportForm()
+
+    context = {
+        'title': title,
+        'form': form,
+    }
+    return render(request, 'transport/transEdit.html', context)

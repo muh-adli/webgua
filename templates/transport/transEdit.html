@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<style>
+    #map {
+        height: 94vh;
+        width: 100%;
+    }
+</style>
+
+{% endblock %}
+
+{% block content %}
+    <content>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </content>
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}

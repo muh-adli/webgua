@@ -22,4 +22,5 @@ from .views import *
 urlpatterns = [
     path('', transHome, name="transHome"),
     path('map/', transMap, name="transMap"),
+    path('edit/', transData, name="transData"),
 ]
