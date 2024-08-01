@@ -17,7 +17,7 @@
 - [ ] Coordinate converter
     - [ ] Realtime
     - [ ] Batch
-- [ ] Vercel deployment
+- [ ] Vercel/Pythoneverywhere deployment
 - [X] Neon postgres integration
 - [ ] GIS Forum
     - [ ] Forum
