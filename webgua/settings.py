@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     
     # Django App
     'dashboard',
-    'API',
+    # 'API',
     'transport',
 ]
 
