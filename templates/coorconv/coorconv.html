@@ -5,59 +5,20 @@
 </div>
 <div class="row">
   <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4">
-    <h1>WGS</h1>
-    <form method="POST" action={% url "coorConvert" %}>
-      {% csrf_token %}
-      <div class="form-group">
-        <label for="exampleInputEmail1">Latitude</label>
-        <input type="number" class="form-control my-1" id="Latitude" aria-describedby="Latitude" name="Latitude" placeholder={{output_lat}} step="any"/>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Longitude</label>
-        <input type="number" class="form-control my-1" id="Longitude" aria-describedby="Longitude" name="Longitude" placeholder={{output_long}} step="any"/>
-      </div>
-      <button type="submit" class="btn btn-primary mt-2"  name="form_type" value="latlong">Convert</button>
-    </form>
-  </div>
-  <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4">
     <h1>UTM</h1>
-    <form method="POST" action={% url "coorConvert" %}>
+    <form method="POST" id="formUTM" action={% url "coorConvert" %}>
       {% csrf_token %}
+      {{ formUTM }}
       <div class="form-group">
-        <label for="exampleInputEmail1">Coordinate X</label>
-        <input type="number" class="form-control my-1" id="X" aria-describedby="Coordinate X" name="X" placeholder="{{output_x}}" value={{output_x}} step="any"/>
+        <button type="submit" class="btn btn-primary mt-2" name ="typeform" value="utm">Convert</button>
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Coordinate Y</label>
-        <input type="number" class="form-control my-1" id="Y" aria-describedby="Coordinate Y" name = "Y" placeholder={{output_y}} step="any" />
-      </div>
-      <div class="form-group">
-        <label for="crs">UTM</label>
-        <select name="crs" id="crs">
-          {% for list in crs_choices %}
-                <option value="{{list}}">{{list}}</option>
-          {% endfor %}
-        </select>
-        
-        <input type="text" class="form-control my-1" id="UTM" aria-describedby="UTM" placeholder="UTM Zone" />
-      </div>
-      <button type="submit" class="btn btn-primary mt-2"  name="form_type" value="utm">Convert</button>
     </form>
-  </div>
-  <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
-    <h1>batch file</h1>
-    <form>
+    <h1>WGS</h1>
+    <form method="POST" id="formWGS" action={% url "coorConvert" %}>
+      {% csrf_token %}
+      {{ formWGS }}
       <div class="form-group">
-        <label for="exampleInputEmail1">WGS 84</label>
-        <input type="file" class="form-control my-1" id="WGSBatch" aria-describedby="Choose your file" placeholder="Choose your file" />
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">UTM</label>
-        <input type="file" class="form-control my-1" id="UTMBatch" aria-describedby="Choose your file" placeholder="Choose your file" />
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary mt-2">Download Template</button>
-        <button type="submit" class="btn btn-primary mt-2">Convert</button>
+        <button type="submit" class="btn btn-primary mt-2" name ="typeform" value="wgs" >Convert</button>
       </div>
     </form>
   </div>
